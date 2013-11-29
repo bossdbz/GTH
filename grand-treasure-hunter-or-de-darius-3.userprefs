@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\TER - Réalité Virtuelles - Son Et Musique - Serious Game\Assets\Script\afficheQuestion.js">
+    <Files>
+      <File FileName="..\TER - Réalité Virtuelles - Son Et Musique - Serious Game\Assets\Script\afficheQuestion.js" Line="19" Column="85" />
+      <File FileName="..\TER - Réalité Virtuelles - Son Et Musique - Serious Game\Assets\Script\CollisionTresor.js" Line="15" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

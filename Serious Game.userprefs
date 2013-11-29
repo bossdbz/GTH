@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Amazonie\Labyrinthe.js">
+    <Files>
+      <File FileName="Assets\Script\Amazonie\intro.js" Line="15" Column="3" />
+      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="2" Column="1" />
+      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="26" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
