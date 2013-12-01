@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 23e2f1f6b0f9642b384978a118f25a90
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - softRain: {fileID: 100002, guid: d061df6a20b1a45eca9536851887b985, type: 2}
+  - rain: {fileID: 100002, guid: d7a0c95ae082b4084be6014e9f3a1ec2, type: 2}
+  - heavyRain: {fileID: 100002, guid: ae5d05fda33d34aa2851e95b52cc28c4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
