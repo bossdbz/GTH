@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: p47_scheme1_df
+  m_Shader: {fileID: 4800000, guid: ac04e6fab8212304b85bf63c1140d480, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4de19abc98294c44fba24d504ba4c851, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 8900000, guid: 66887de9b6c459046aa11c3ac1c852b8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: 4de19abc98294c44fba24d504ba4c851, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normals
+        second:
+          m_Texture: {fileID: 2800000, guid: 137aae27293fcff4f91ebc43cd229c3b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Specular
+        second:
+          m_Texture: {fileID: 2800000, guid: 718b28f1db13e9b479e625e39235ddc3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Gloss
+        second: .215156123
+      data:
+        first:
+          name: _ReflectionStrength
+        second: 1.85246837
+      data:
+        first:
+          name: _Fresnel
+        second: 6.03731346
+      data:
+        first:
+          name: _FresnelStrength
+        second: .675086081
+    m_Colors:
+      data:
+        first:
+          name: _Colour
+        second: {r: .589552283, g: .589552283, b: .589552283, a: 1}
+      data:
+        first:
+          name: _SpecColour
+        second: {r: .589552283, g: .589552283, b: .589552283, a: 1}
+      data:
+        first:
+          name: _FresnelTint
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: .588, g: .588, b: .588, a: 1}
