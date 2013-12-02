@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: e001f044dada842c5a54acd17cfc6dca
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - blip: {fileID: 2800000, guid: 4feb345e823dc41bcb0e357014dd19ae, type: 3}
+  - blipChasing: {fileID: 2800000, guid: a0f8d0a724c9248a3b7bb739024296b8, type: 3}
+  - radarBG: {fileID: 2800000, guid: 90f6e78d754914387a3f36ed45e0e6e9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
