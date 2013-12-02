@@ -78,11 +78,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97059fe11e6eeb14aa2826a60caba710, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  tresor: {fileID: 0}
-  world: {fileID: 0}
+  tresor: {fileID: 100000}
+  world: {fileID: 100000, guid: 8322c5ab6c2e8b3418bdbd458d04963f, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
