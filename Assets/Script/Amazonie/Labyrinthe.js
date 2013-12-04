@@ -1,82 +1,95 @@
 #pragma strict
 
-//var t : GUIText;
-//t.guiText.text = "Tu as 10 min pour trouver la sortie,\n de plus il te faudra trouver les 5 objets antique,\nbon courage jeune aventurier !";
-
-
-// the textfield to update the time to 
-
-
- 
-// time variables 
-public var allowedTime:int = 600; 
+public var allowedTime:int = 50; 
 private var currentTime = allowedTime; 
 
 
 
-function Start () {
-
-	
-	
+function Start ()
+{
 }
 
 function Update () 
 {
-	//object = GameObject.Find("GUIPanel/TxtTimer").GetComponent(GUIText);
+	if(GameVariables.RDCwinLvl1==1)
+		openDoorRdc();
 }
-
-
-
-	
-	//Timer = Timer -1;
-
-
-
 
 function OnMouseDown() 
 { 
-	
-
 }
 
 function OnTriggerEnter( other : Collider ) 
 {  
- // retrieve the GUIText Component and set the text 
- GameVariables.textfield2 = GameObject.Find("GUIPanel/TxtTimer").GetComponent(GUIText); 
- GameVariables.textfield = GameObject.Find("GUIPanel/TxtObjets").GetComponent(GUIText); 
- GameVariables.textfield.text = "Objets Trouvés 0/5";
+ 	// retrieve the GUIText Component and set the text 
+ 	if (GameVariables.beginLvl1!=1)
+ 	{
+ 		GameVariables.textfield2 = GameObject.Find("GUIPanel/TxtTimer").GetComponent(GUIText); 
+ 		GameVariables.textfield = GameObject.Find("GUIPanel/TxtObjets").GetComponent(GUIText); 
+ 		GameVariables.textfield.text = "Objets Trouvés 0/5";
+ 		GameVariables.beginLvl1=1;
  
- 
- 	UpdateTimerText(); 
- 	GameVariables.textfield2.text = "Trouvez la sortie du labyrinthe "; 
+ 		UpdateTimerText(); 
+ 	
+ 	
+ 		GameVariables.textfield2.text = "Trouvez la sortie du labyrinthe "; 
+ 	
  
  // start the timer ticking 
-	 TimerTick(); 
+ 
+ 		
+ 		
+ 				
+		TimerTick(); 
+		
+	 }
 } 
  
 function UpdateTimerText() 
 { 
  // update the textfield 
- GameVariables.textfield2.text = "Temps restant : " + currentTime.ToString()+ " sec "; 
+ 	GameVariables.textfield2.text = "Temps restant : " + currentTime.ToString()+ " sec "; 
 } 
  
 function TimerTick() 
 { 
  // while there are seconds left 
- var win = GameVariables.RDCwin;
- if(win) currentTime =0;
- while((currentTime > 0) && (!win)) 
+ 
+ 
+ while(currentTime > 0)  
  { 
  	// wait for 1 second 
 	 yield WaitForSeconds(1); 
  
 	 // reduce the time 
-	 currentTime--; 
+	if(GameVariables.nombreObjTrouveRdc==5)
+	{
+ 			GameVariables.RDCwinLvl1=1;
+ 	}	
+ 	  	
+ 	if(GameVariables.RDCwinLvl1==0)
+ 	{ 
+	 	currentTime--; 
  
-	 UpdateTimerText(); 
+		 UpdateTimerText(); 
+	}
+	else{
+		currentTime=0;
+	}
  } 
  
- // game over and restart 
- Application.LoadLevel("Temple Aztèque"); 
+ // game over and restart
+ if(GameVariables.RDCwinLvl1==0)
+ { 
+ 	GameVariables.resetLvl1();
+	 Application.LoadLevel("Temple Aztèque"); 
+ }
+
+}
+
+function openDoorRdc()
+{
+
+
+}
  
-} 
