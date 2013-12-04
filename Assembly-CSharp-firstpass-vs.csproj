@@ -49,6 +49,7 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
+     <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\pylon_kit\shader\Normal-BumpSpec.shader" />
      <None Include="Assets\readme.txt" />
      <None Include="Assets\Nobiax Free Rocks\Nobiax Free Rocks.txt" />

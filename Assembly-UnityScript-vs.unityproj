@@ -53,10 +53,7 @@
      <Compile Include="Assets\Script\Amazonie\GlobalsScenes.js" />
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
-<<<<<<< HEAD
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
-=======
->>>>>>> 8c7b566a535aaf1c49b9fb98d66d773f4115090e
      <Compile Include="Assets\Script\Arménie\CollisionTresor.js" />
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
      <Compile Include="Assets\Script\Arménie\Parcour.js" />
@@ -64,6 +61,7 @@
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\test.js" />
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
+     <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\pylon_kit\shader\Normal-BumpSpec.shader" />
      <None Include="Assets\readme.txt" />
      <None Include="Assets\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
