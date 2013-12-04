@@ -6,7 +6,7 @@
 
 public function getRDCwin()
 
-{ return GameVariables.RDCwin; }
+{ return GameVariables.RDCwinLvl1; }
 
 function Start () {
 
@@ -90,7 +90,7 @@ function OnTriggerEnter( other : Collider ) {
 		{
 			textfield2.text = ""; 
 			textfield.text = "bravo !"; 
-			GameVariables.RDCwin=1;
+			GameVariables.RDCwinLvl1=1;
 		}
 		
 		
