@@ -1,6 +1,5 @@
 ﻿#pragma strict
 
-
 var world : GameObject;
 
 
