@@ -53,10 +53,7 @@
      <Compile Include="Assets\Script\Amazonie\GlobalsScenes.js" />
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
-<<<<<<< HEAD
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
-=======
->>>>>>> 8c7b566a535aaf1c49b9fb98d66d773f4115090e
      <Compile Include="Assets\Script\Arménie\CollisionTresor.js" />
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
      <Compile Include="Assets\Script\Arménie\Parcour.js" />
