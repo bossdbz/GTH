@@ -59,6 +59,7 @@
      <Compile Include="Assets\Script\Arménie\GameVariable.js" />
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
      <Compile Include="Assets\Script\Arménie\Parcour.js" />
+     <Compile Include="Assets\Script\Arménie\ParcourPointSuivant.js" />
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />

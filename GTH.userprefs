@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\StopAnimationBonhomme.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\ParcourPointSuivant.js">
     <Files>
-      <File FileName="Assets\Script\Arménie\StopAnimationBonhomme.js" Line="24" Column="49" />
+      <File FileName="Assets\Script\Arménie\StopAnimationBonhomme.js" Line="24" Column="3" />
+      <File FileName="Assets\Script\Arménie\Parcour.js" Line="24" Column="3" />
+      <File FileName="Assets\Script\Arménie\ParcourPointSuivant.js" Line="15" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
