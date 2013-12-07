@@ -1,5 +1,8 @@
 ﻿#pragma strict
 
+
+
+
 function Start () {
 
 }
@@ -8,22 +11,36 @@ function Update () {
 
 }
 
+private var nomObjectParent : String;
+private var tresor : Transform[];
+private var pere : GameObject;
 
-/*
 function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
-		Minuteur();
+		/*Minuteur();
 		world.SendMessage("AddTresor");
 		if( audio ){
 			audio.Play();
 		}
+		*/
+		//nomObjectParent = transform.gameObject.transform.parent.gameObject.name;
+		
+		//pere = transform.gameObject.name;
+		tresor = transform.parent.gameObject.GetComponentsInChildren(typeof(Transform));
+		//tresor =  GameObject.Find(nomObjectParent+"/Tresor");
+		for(var obj : Transform in tresor){
+			Debug.Log(obj.gameObject.name);
+			//obj.gameObject.r	enderer.enabled = true;
+			//obj.gameObject.collider.enabled = true;
+		}//*/
+			
 	}
 }
 
 
 
 
-function Minuteur()
+/*function Minuteur()
 {
 	// retrieve the GUIText Component and set the text
 	textfield = GameObject.Find("GUIPanel/TxtTimer").GetComponent(GUIText);

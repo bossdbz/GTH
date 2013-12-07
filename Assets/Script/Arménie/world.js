@@ -1,24 +1,28 @@
 ﻿#pragma strict
 
-var tresors : int = 0;
-var nbrTresors : int;
 
-function start (){
-	
-}
+
+private var textTresor : GUIText;
+private var textPiece : GUIText;
 
 function AddTresor () {
-	tresors++;
+	GameVariable.nbrTresor++;
 }
 
-private var textfield : GUIText;
+function AddPiece () {
+	GameVariable.nbrPiece++;
+}
+
+
 
 function Awake(){
-	nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
-	textfield = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
+	//nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
+	textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
+	textPiece = GameObject.Find("InterfaceJeux/TextPiece").GetComponent(GUIText);
 	OnGUI();
 }
 
 function OnGUI() {
-	textfield.text = tresors.ToString() + "/" + nbrTresors;
+	textTresor.text = GameVariable.nbrTresor + "";
+	textPiece.text = GameVariable.nbrPiece + "";
 }

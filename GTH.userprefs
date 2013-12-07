@@ -1,19 +1,8 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Amazonie\Labyrinthe.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\StopAnimationBonhomme.js">
     <Files>
-      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="58" Column="2" />
-      <File FileName="Assets\Script\Amazonie\objetRDC.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="32" Column="31" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Radar\Radar.js">
-    <Files>
-      <File FileName="Assets\Radar\Radar.js" Line="1" Column="1" />
-      <File FileName="Assets\Radar\Radar.js" Line="1" Column="1" />
-      <File FileName="Assets\Radar\EnemyAI.js" Line="24" Column="1" />
->>>>>>> 8c7b566a535aaf1c49b9fb98d66d773f4115090e
+      <File FileName="Assets\Script\Arménie\StopAnimationBonhomme.js" Line="24" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
