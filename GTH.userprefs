@@ -1,8 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\StopAnimationBonhomme.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Amazonie\porteLaby.js">
     <Files>
-      <File FileName="Assets\Script\Arménie\StopAnimationBonhomme.js" Line="24" Column="49" />
+      <File FileName="Assets\Script\Amazonie\mort.js" Line="13" Column="62" />
+      <File FileName="Assets\Script\Amazonie\checkpoint.js" Line="19" Column="67" />
+      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="31" Column="32" />
+      <File FileName="Assets\Script\Amazonie\objetRDC.js" Line="5" Column="1" />
+      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="80" Column="29" />
+      <File FileName="Assets\Script\Amazonie\porteLaby.js" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
