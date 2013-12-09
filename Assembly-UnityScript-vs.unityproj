@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -52,8 +52,16 @@
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
      <Compile Include="Assets\Script\Amazonie\GlobalsScenes.js" />
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
+     <Compile Include="Assets\Script\Amazonie\checkpoint.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
+     <Compile Include="Assets\Script\Amazonie\mort.js" />
+     <Compile Include="Assets\Script\Amazonie\objetETG1.js" />
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Script\Amazonie\porteETG1.js" />
+     <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
+>>>>>>> 38a2c3180e0938ca6a7f13b646eba92f3ee0f74d
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
      <Compile Include="Assets\Script\Arménie\GameVariable.js" />
@@ -63,7 +71,8 @@
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
-     <Compile Include="Assets\Script\test.js" />
+     <Compile Include="Assets\Script\Menu\audio.js" />
+     <Compile Include="Assets\Script\Menu\menuScripts.js" />
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
      <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\pylon_kit\shader\Normal-BumpSpec.shader" />
