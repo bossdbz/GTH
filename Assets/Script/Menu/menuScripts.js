@@ -61,7 +61,7 @@ function Update () {
 	}
 	if(anim6==1)
 	{
-		if(Cam.transform.position.x < 0)
+		if(Cam.transform.position.x < -1)
 		{
 			x =	Time.deltaTime	*	(90);
 			Cam.transform.Translate(x,0,0);	
@@ -80,10 +80,10 @@ function OnMouseDown()
 	if (this.name == "back3")anim6=1;
 	
 	//les levels
-	if (this.name == "niveau1")Application.LoadLevel("Temple Aztèque");;	
-	if (this.name == "niveau2")Application.LoadLevel("Angleterre");;	
-	if (this.name == "niveau3")Application.LoadLevel("Arménie");;	
-	if (this.name == "niveau4")Application.LoadLevel("Syrie");;	
-	if (this.name == "niveau5")Application.LoadLevel("Iran");;	
-	if (this.name == "niveauBonus")Application.LoadLevel("Chine");;
+	if (this.name == "niveau1")Application.LoadLevel("Temple Aztèque");	
+	if (this.name == "niveau2")Application.LoadLevel("Angleterre");	
+	if (this.name == "niveau3")Application.LoadLevel("Arménie");	
+	if (this.name == "niveau4")Application.LoadLevel("Syrie");
+	if (this.name == "niveau5")Application.LoadLevel("Iran");	
+	if (this.name == "niveauBonus")Application.LoadLevel("Chine");
 }
