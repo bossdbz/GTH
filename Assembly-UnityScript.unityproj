@@ -54,13 +54,9 @@
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
-<<<<<<< HEAD
-     <Compile Include="Assets\Script\Arménie\CollisionTresor.js" />
-=======
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
      <Compile Include="Assets\Script\Arménie\GameVariable.js" />
->>>>>>> a03bf9546df8a40d6a87d7459a85c9f4cb742814
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
      <Compile Include="Assets\Script\Arménie\Parcour.js" />
      <Compile Include="Assets\Script\Arménie\ParcourPointSuivant.js" />
