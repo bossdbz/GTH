@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
+     <Compile Include="Assets\Script\Arménie\Chrono.js" />
      <Compile Include="Assets\Script\Arménie\GameVariable.js" />
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
      <Compile Include="Assets\Script\Arménie\Parcour.js" />
