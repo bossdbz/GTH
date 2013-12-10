@@ -13,7 +13,6 @@ function Start () {
 function Update () {
 	
 	dist = Vector3.Distance(player.transform.position, transform.position);
-	
 	if(dist < distance){
 		ballon.gameObject.GetComponent(Animator).enabled = false;
 		pied.gameObject.GetComponent(Animator).enabled = false;

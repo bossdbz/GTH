@@ -1,6 +1,6 @@
 #pragma strict
 
-public var allowedTime:int = 50; 
+public var allowedTime:int = 600; 
 private var currentTime = allowedTime; 
 
 
@@ -11,8 +11,7 @@ function Start ()
 
 function Update () 
 {
-	if(GameVariables.RDCwinLvl1==1)
-		openDoorRdc();
+	
 }
 
 function OnMouseDown() 
