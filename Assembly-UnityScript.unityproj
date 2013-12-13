@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DesertFortressPack\Scripts\open_door.js" />
+     <Compile Include="Assets\Image\DesertFortressPack\Scripts\open_door.js" />
      <Compile Include="Assets\Radar\EnemyAI.js" />
      <Compile Include="Assets\Radar\Radar.js" />
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />

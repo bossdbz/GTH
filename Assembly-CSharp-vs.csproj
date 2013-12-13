@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DesertFortressPack\Scripts\open_door.cs" />
+     <Compile Include="Assets\Image\DesertFortressPack\Scripts\open_door.cs" />
      <Compile Include="Assets\RainFX\RainCreator.cs" />
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
      <None Include="Assets\Standard Assets\water well\readme.txt" />

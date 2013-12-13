@@ -4,42 +4,70 @@
 
 
 
-private var nomParcour : String;
+
 var numParcour : int;
 var nombrePoint : int;
-var chrono : GUITexture; 
+var chronoTime : int; 
+
+private var nomParcour : String;
 private var tresorCur : GameObject; 
 private var declencher : boolean;
 private var i : int = 1;
+private var chronoGT : GUIText;
+private var textfield : String;
+private var gagner : boolean;
+ 
 
+
+function Awake(){
+	chronoGT = GameObject.Find("Chrono").GetComponent(GUIText);
+}
 
 function update(){
 	if ( declencher ){
-		if(i <= nombrePoint){
+		if( (chronoTime > 0) && (i <= nombrePoint) ){			
+		
 			tresorCur = GameObject.Find(nomParcour+ "/Tresor"+ numParcour + "-" + i);
-			enable(tresorCur);
+			enable(tresorCur, true);
+			Debug.Log("normal");
 		}
-		else{
-			Debug.Log("Gagner");		
+		if( (chronoTime > 0) && (i > nombrePoint) ){
+				gagner = true;
+				chronoGT.enabled = false;
+				Debug.Log("Gagner1");		
+				declencher = false;
+				Destroy(gameObject);//*/
+				//stopParcour();
+		}
+		if (chronoTime == 0){
 			declencher = false;
-			Destroy(gameObject);
-		}
+			chronoGT.enabled = false;
+			Debug.Log("Perdu1");//*/
+			//stopParcour();
+		}//*/
 	}//*/
-	
-
 }
 
 function pointSuivant(){
 	i++;
 }
 
-function enable(go : GameObject){
+
+
+
+function enable(go : GameObject, bool : boolean){
+	
 	var boxCollider = go.GetComponent(BoxCollider);
 	var particule = go.GetComponent(ParticleSystem);
 	//for (var r : Renderer in renderer) {
+	if (bool){
     	boxCollider.enabled = true;
-    	//Debug.Log(boxCollider.name);
     	particule.renderer.enabled = true;
+    }
+    else{
+    	boxCollider.enabled = false;
+    	particule.renderer.enabled = false;   
+    }
 	//}
 
 }
@@ -47,18 +75,52 @@ function enable(go : GameObject){
 
 function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
+	Debug.Log("collision parcour");
+		StartChrono();
 		nomParcour = transform.gameObject.name;
 		tresorCur = GameObject.Find(nomParcour+ "/Tresor" + numParcour + "-" + i);
-		enable(tresorCur);
+		enable(tresorCur, true);
 		declencher = true;
 		
 	
 	}
 }
 
+/************************Chrono************************/
+
+
+function StartChrono()
+{
+	
+	// retrieve the GUIText Component and set the text
+	chronoGT.enabled = true;
+	//textfield = chronoGT.GetComponent(GUIText);
+	UpdateTimerText();
+	// start the timer ticking
+	TimerTick();
+}
+
+function UpdateTimerText()
+{
+	// update the textfield
+	chronoGT.text = "time:" + chronoTime.ToString();
+}
+
+function TimerTick()
+{
+	// while there are seconds left
+	while(chronoTime > 0)
+	{
+		// wait for 1 second
+		yield WaitForSeconds(1);
+		// reduce the time
+		chronoTime--;
+		UpdateTimerText();
+	}
+	
+}//*/
 
 
 
 
-//*/
 

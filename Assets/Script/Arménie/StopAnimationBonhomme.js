@@ -16,7 +16,6 @@ function Update () {
 	if(dist < distance){
 		ballon.gameObject.GetComponent(Animator).enabled = false;
 		pied.gameObject.GetComponent(Animator).enabled = false;
-		//pied.animation.Stop();		
 	}
 	else{
 		ballon.gameObject.GetComponent(Animator).enabled = true;
