@@ -43,10 +43,8 @@ function TimerTick( time : int )
 		// wait for 1 second
 		yield WaitForSeconds(1);
 		// reduce the time
-		currentTime--;
+		currentTime--;	
 		UpdateTimerText();
 	}
 	
-	// game over and restart
-	Application.LoadLevel("Intro");
-}*/
+}//*/
