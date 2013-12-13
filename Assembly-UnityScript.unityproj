@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -52,16 +52,29 @@
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
      <Compile Include="Assets\Script\Amazonie\GlobalsScenes.js" />
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
+     <Compile Include="Assets\Script\Amazonie\checkpoint.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
+     <Compile Include="Assets\Script\Amazonie\mort.js" />
+     <Compile Include="Assets\Script\Amazonie\objetETG1.js" />
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
+     <Compile Include="Assets\Script\Amazonie\porteETG1.js" />
+     <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
+     <Compile Include="Assets\Script\Arménie\Chrono.js" />
      <Compile Include="Assets\Script\Arménie\GameVariable.js" />
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
      <Compile Include="Assets\Script\Arménie\Parcour.js" />
+     <Compile Include="Assets\Script\Arménie\ParcourPointSuivant.js" />
      <Compile Include="Assets\Script\Arménie\Question.js" />
+     <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
-     <Compile Include="Assets\Script\test.js" />
+     <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
+     <Compile Include="Assets\Script\Menu\audio.js" />
+     <Compile Include="Assets\Script\Menu\menuScripts.js" />
+     <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
+     <Compile Include="Assets\Script\bonus azteque\end.js" />
+     <Compile Include="Assets\Transition.js" />
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
      <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\pylon_kit\shader\Normal-BumpSpec.shader" />
