@@ -1,10 +1,22 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\Parcour.js">
     <Files>
       <File FileName="Assets\Script\Arménie\Chrono.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\Parcour.js" Line="28" Column="46" />
       <File FileName="Assets\Script\Arménie\ParcourPointSuivant.js" Line="18" Column="5" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\bonus azteque\avionbehaviour.js">
+    <Files>
+      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="22" Column="2" />
+      <File FileName="Assets\Script\Bonus Syrie\voiture.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\end.js" Line="1" Column="1" />
+>>>>>>> d70bda0cd8f94d09a110005a346fe401c8f512a7
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
