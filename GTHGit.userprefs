@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Packages\Angleterre\TestTableau1.js">
+    <Files>
+      <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="35" Column="37" />
+      <File FileName="Assets\Image\DesertFortressPack\Scripts\open_door.js" Line="18" Column="1" />
+      <File FileName="Assets\Script\Amazonie\intro.js" Line="3" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
