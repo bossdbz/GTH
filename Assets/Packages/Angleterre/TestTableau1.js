@@ -20,8 +20,8 @@ if(enter == true && ShowDescTab == false)
 		{
 			ShowDescTab = true;
 			DescTab.fontStyle = FontStyle.Italic;
-			if (this.gameObject.tag == "TableauRoi")
-				{DescTab.text = ("Combat final entre le Roi Arthur et Mordred") + ("");
+			if (this.gameObject.tag == "SportPerse")
+				{DescTab.text = ("Le tchowgân,  premier jeu de balle en équipe de l’histoire de l’humanité.") + ("\n") + ("C'était un entraînement pour les cavaliers des troupes d’élite") + ("\n") + ("de l’armée et les gardes du roi de Perse.");
 				FadeDesc();
 				}
 			else if (this.gameObject.tag == "FresqueDarius")
@@ -34,6 +34,10 @@ if(enter == true && ShowDescTab == false)
 				}
 			else if (this.gameObject.tag == "Gaugameles")
 				{DescTab.text = ("Bataille de Gaugamèles, affrontement décisif entre Alexandre le Grand et Darius III.") + ("\n") + ("331 av. J.-C.");
+				FadeDesc();
+				}
+			else if (this.gameObject.tag == "FemmeDarius")
+				{DescTab.text = ("Mort de la femme de Darius") + ("");
 				FadeDesc();
 				}
 		  }
