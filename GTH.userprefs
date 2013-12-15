@@ -1,6 +1,18 @@
 ﻿<Properties>
 <<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuScripts.js">
+    <Files>
+      <File FileName="Assets\Script\bonus azteque\missile.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\temps.js" Line="7" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="76" Column="6" />
+      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="25" Column="27" />
+      <File FileName="Assets\Script\bonus azteque\life.js" Line="24" Column="46" />
+      <File FileName="Assets\Script\bonus azteque\caisse.js" Line="29" Column="30" />
+      <File FileName="Assets\Script\Menu\menuScripts.js" Line="59" Column="36" />
+=======
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\Parcour.js">
     <Files>
       <File FileName="Assets\Script\Arménie\Chrono.js" Line="1" Column="1" />
@@ -17,6 +29,7 @@
       <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="1" Column="1" />
       <File FileName="Assets\Script\bonus azteque\end.js" Line="1" Column="1" />
 >>>>>>> d70bda0cd8f94d09a110005a346fe401c8f512a7
+>>>>>>> 0c6a707a85133e03242e99d695f3299a7b032130
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
