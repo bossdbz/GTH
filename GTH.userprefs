@@ -1,13 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\bonus azteque\avionbehaviour.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuScripts.js">
     <Files>
-      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="22" Column="2" />
-      <File FileName="Assets\Script\Bonus Syrie\voiture.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\end.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\missile.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\temps.js" Line="7" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="76" Column="6" />
+      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="25" Column="27" />
+      <File FileName="Assets\Script\bonus azteque\life.js" Line="24" Column="46" />
+      <File FileName="Assets\Script\bonus azteque\caisse.js" Line="29" Column="30" />
+      <File FileName="Assets\Script\Menu\menuScripts.js" Line="59" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
