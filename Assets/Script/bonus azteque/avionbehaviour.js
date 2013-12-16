@@ -1,40 +1,108 @@
 ﻿#pragma strict
+public var projectile: Transform;
+public var i =0 ;
+public var obstacle: Transform;
+public var life: Transform;
+public var caisse: Transform;
 
 function Start () {
-
+	
 }
 
 function Update () {
+
 	var avion = GameObject.Find("avion");
-	//deplacement basique
-	var	speed=250.0;			//	déplacer	l’objet	200	m	par	seconde	
-	var	x=Input.GetAxis("Horizontal")*Time.deltaTime*speed;		
-	var	z=Input.GetAxis("Vertical")*Time.deltaTime*speed;
 	
-	//si on est dans les bords
-	//if((avion.transform.position.z < 7000 ) && (avion.transform.position.z > 3000) && (avion.transform.position.y < 2000))
-	//	avion.transform.Translate(x,-3,z);
+	var	speed=300;		
+		
 	
-	//recalage
-	if(avion.transform.position.z >= 7000 ) avion.transform.Translate(3,-3,0);
-	else if(avion.transform.position.z <= 3000 ) avion.transform.Translate(-3,-3,0);
-	else if(avion.transform.position.y >= 2000 ) avion.transform.Translate(0,-3,-3);
-	else avion.transform.Translate(x,-3,z);
+	if(this.transform.position.z > 2500)
+		var	x=Input.GetAxis("Horizontal")*Time.deltaTime*speed/2;
+	if(this.transform.position.z <= 2500)
+		avion.transform.Translate(-5,0,0);
+	
+	if(this.transform.position.z < 5500)
+		var	x1=Input.GetAxis("Horizontal")*Time.deltaTime*speed/2;
+	if(this.transform.position.z >= 5500)
+		avion.transform.Translate(5,0,0);
+	
+	if(this.transform.position.y < 1300)
+		var	z=Input.GetAxis("Vertical")*Time.deltaTime*speed/2;
+	if(this.transform.position.y >= 1300)
+		avion.transform.Translate(0,0,-10);
+
+	avion.transform.Translate(x,-(speed / 80),z);
+	
+	
+	
+	var helice = GameObject.Find("helice");
+	helice.transform.Rotate(4320*Time.deltaTime,0,0);
 	
 	
 	var avionC = GameObject.Find("avion component");
 	
-	
+	Debug.Log(" pos ici : "+ avion.transform.rotation.x);
 		
-	//espace
-	//if(Input.GetKey("space") ) avionC.animation.Play("avion");
-	//else avionC.animation.Stop("avion");
-	if(Input.GetKey("a") ) avion.transform.Rotate(0,180*Time.deltaTime,0);
-	if(Input.GetKey("z") ) avion.transform.Rotate(0,-180*Time.deltaTime,0);
+	var gauche = GameObject.Find("zoneg");
+	var droite = GameObject.Find("zoned");
+	
+	
+	if(Input.GetKey("e") ){
+			var proj ;
+			
+			if(AvionVariables.munitions > 0)
+			{
+				if(i%2==0)
+					proj = Instantiate(projectile,gauche.transform.position, avion.transform.rotation) ;
+				else 
+					proj = Instantiate(projectile,droite.transform.position, avion.transform.rotation) ;
+				AvionVariables.munitions = AvionVariables.munitions - 1 ;
+			}
+			
+			
+	 }
+	 
+	 var obs = Random.Range(1,30);
+	 var vie = Random.Range(1,125);
+	 var ob;
+     var y1 = Random.Range(-30,30);	
+     var z1 = Random.Range(-30,30);	
+	 	
+			if(obs==2)
+				ob = Instantiate(obstacle ,avion.transform.position + Vector3(160,y1,z1) , avion.transform.rotation) ;
+	 		if(obs==3)
+				ob = Instantiate(obstacle ,avion.transform.position + Vector3(160,0,0) , avion.transform.rotation) ;
+	 		if(vie==75)
+	 			ob = Instantiate(life ,avion.transform.position + Vector3(160,y1,z1) ,  Quaternion.identity) ;
+	 		if(vie==70)
+	 			ob = Instantiate(caisse ,avion.transform.position + Vector3(160,y1,z1) ,  Quaternion.identity) ;
+	 
+	 // gere le trajet de tous les projectiles
+	 
+	
+	if(Input.GetKey("a") ) avion.transform.Rotate(0,120*Time.deltaTime,0);
+	else if(Input.GetKey("z") ) avion.transform.Rotate(0,-120*Time.deltaTime,0);
+	else{
+		//ne rien faire
+	
+	}
+	
+	
+	i=i+1;
+	
+	
+	
+	if (AvionVariables.vie <= 0)
+	{
+		//Destroy(gameObject);
+		Application.LoadLevel("angleterre");
+	}
 }
 
 function OnTriggerEnter( other : Collider ) {
 
-	if( other.name == "Terrain")Application.LoadLevel("bonus azteque");
 
 }
+
+
+
