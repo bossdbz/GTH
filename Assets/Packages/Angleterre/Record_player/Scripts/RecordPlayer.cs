@@ -95,6 +95,16 @@ void Update()
     arm.transform.localEulerAngles = new Vector3(0.0f, armAngle, 0.0f);
     disc.transform.localEulerAngles = new Vector3(0.0f, discAngle, 0.0f);
 }
+
+void On()
+{
+		recordPlayerActive = true;
+}
+void Off()
+	{
+		recordPlayerActive = false;
+	}
+
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------
