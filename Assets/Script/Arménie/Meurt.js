@@ -12,7 +12,7 @@ function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
 		//Application.LoadLevel(EditorApplication.currentScene);
 		var sceneName : String = EditorApplication.currentScene;
-		
+		GameVariable.nbrVie--;
 		if(sceneName == "Assets/Scene/Arménie.unity"){
 			Application.LoadLevel("Arménie");
 		}

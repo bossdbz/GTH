@@ -1,10 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Packages\Angleterre\TestTableau1.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Packages\Angleterre\ChoixNiveau.js">
     <Files>
-      <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="24" Column="231" />
+      <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="83" Column="2" />
       <File FileName="Assets\Image\DesertFortressPack\Scripts\open_door.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Amazonie\intro.js" Line="1" Column="1" />
+      <File FileName="Assets\Packages\Angleterre\MusiqueAmbiance.js" Line="1" Column="1" />
+      <File FileName="Assets\Packages\Angleterre\ChoixNiveau.js" Line="6" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
