@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\bonus azteque\explosion.js">
     <Files>
@@ -9,6 +10,17 @@
       <File FileName="Assets\Script\bonus azteque\life.js" Line="17" Column="67" />
       <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="20" Column="67" />
       <File FileName="Assets\Script\bonus azteque\explosion.js" Line="14" Column="25" />
+=======
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\world.js">
+    <Files>
+      <File FileName="Assets\Script\Bonus Syrie\AjoutTresor.js" Line="9" Column="33" />
+      <File FileName="Assets\Script\Arménie\AddPiece.js" Line="9" Column="17" />
+      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\AddTresor.js" Line="9" Column="30" />
+      <File FileName="Assets\Script\Arménie\world.js" Line="44" Column="1" />
+      <File FileName="Assets\Script\Arménie\Meurt.js" Line="20" Column="53" />
+>>>>>>> e56adc9d398755b4ce87e65f93af2bc35ef494f7
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

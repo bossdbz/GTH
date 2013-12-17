@@ -73,6 +73,7 @@
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+     <Compile Include="Assets\Script\Bonus Syrie\AjoutTresor.js" />
      <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
