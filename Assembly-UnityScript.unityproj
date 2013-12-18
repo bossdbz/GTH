@@ -51,6 +51,9 @@
      <Compile Include="Assets\Packages\Angleterre\Furniture Pack 1 Free\Scripts\MouseOrbitZoom.js" />
      <Compile Include="Assets\Packages\Angleterre\MusiqueAmbiance.js" />
      <Compile Include="Assets\Packages\Angleterre\TestTableau1.js" />
+     <Compile Include="Assets\Packages\Laby\Addpieces.js" />
+     <Compile Include="Assets\Packages\Laby\Pieces.js" />
+     <Compile Include="Assets\Packages\Laby\Temps.js" />
      <Compile Include="Assets\Radar\EnemyAI.js" />
      <Compile Include="Assets\Radar\Radar.js" />
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />

@@ -61,7 +61,7 @@ yield WaitForSeconds (5);
 DescTab.text = ("") + ("");
 ShowDescTab = false;
 }
-//Activate the Main function when player is near the door
+//Active l'affichage quand le joueur est à portée
 function OnTriggerEnter (other : Collider)
 {
 	if (other.gameObject.tag == "Player") 
@@ -71,7 +71,7 @@ function OnTriggerEnter (other : Collider)
 	}
 }
 
-//Deactivate the Main function when player is go away from door
+//Désactive l'affichage quand le joueur est hors de portée
 function OnTriggerExit (other : Collider)
 {
 	if (other.gameObject.tag == "Player") 
