@@ -1,5 +1,7 @@
 ﻿#pragma strict
 
+
+
 function Start () {
 
 }
@@ -19,6 +21,11 @@ function OnTriggerEnter( other : Collider ) {
 		}	
 		else if(sceneName == "Assets/Scene/Arménie.unity"){
 			Application.LoadLevel("Arménie");
+		}
+		
+		else if(sceneName == "Assets/Scene/Bonus Syrie.unity"){
+			GameVariable.nbrTresorBonus=0;
+			Application.LoadLevel("Bonus Syrie");
 		}
 		
 		else{
