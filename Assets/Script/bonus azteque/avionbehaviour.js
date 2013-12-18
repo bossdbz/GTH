@@ -31,7 +31,7 @@ function Update () {
 	if(this.transform.position.y >= 1300)
 		avion.transform.Translate(0,0,-10);
 
-	avion.transform.Translate(x,-(speed / 80),z);
+	avion.transform.Translate(x,-(speed / 150),z);
 	
 	
 	
@@ -46,17 +46,20 @@ function Update () {
 	var gauche = GameObject.Find("zoneg");
 	var droite = GameObject.Find("zoned");
 	
-	
-	if(Input.GetKey("e") ){
+	//var test = Random.Range(0,0);
+	if(Input.GetKey("e")){
 			var proj ;
+			var proj2 ;
 			
 			if(AvionVariables.munitions > 0)
 			{
-				if(i%2==0)
+				//if(i%2==0)
 					proj = Instantiate(projectile,gauche.transform.position, avion.transform.rotation) ;
-				else 
-					proj = Instantiate(projectile,droite.transform.position, avion.transform.rotation) ;
+				//else 
+					proj2 = Instantiate(projectile,droite.transform.position, avion.transform.rotation) ;
+					
 				AvionVariables.munitions = AvionVariables.munitions - 1 ;
+				i=i+1;
 			}
 			
 			
@@ -71,7 +74,7 @@ function Update () {
 			if(obs==2)
 				ob = Instantiate(obstacle ,avion.transform.position + Vector3(160,y1,z1) , avion.transform.rotation) ;
 	 		if(obs==3)
-				ob = Instantiate(obstacle ,avion.transform.position + Vector3(160,0,0) , avion.transform.rotation) ;
+				ob = Instantiate(obstacle ,avion.transform.position + Vector3(300,0,0) , avion.transform.rotation) ;
 	 		if(vie==75)
 	 			ob = Instantiate(life ,avion.transform.position + Vector3(160,y1,z1) ,  Quaternion.identity) ;
 	 		if(vie==70)
@@ -88,7 +91,7 @@ function Update () {
 	}
 	
 	
-	i=i+1;
+	
 	
 	
 	

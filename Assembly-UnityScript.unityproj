@@ -73,13 +73,18 @@
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+<<<<<<< HEAD
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+=======
+     <Compile Include="Assets\Script\Bonus Syrie\AjoutTresor.js" />
+>>>>>>> f799d0681e6d3db84f4202e98d6be9eaade5814d
      <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
+     <Compile Include="Assets\Script\bonus azteque\explosion.js" />
      <Compile Include="Assets\Script\bonus azteque\life.js" />
      <Compile Include="Assets\Script\bonus azteque\missile.js" />
      <Compile Include="Assets\Script\bonus azteque\obstacles.js" />
