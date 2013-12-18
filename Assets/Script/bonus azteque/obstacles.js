@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-
+public var explosion: Transform;
 
 function Start () {
 
@@ -8,10 +8,16 @@ function Start () {
 
 function Update () {
 		//var vitesse = Random.Range(0,30);
-		this.transform.Translate(0,0,0);
+		this.transform.Translate(0,4,0);
 		var avion = GameObject.Find("avion");
-		this.transform.Rotate(22*Time.deltaTime,25,15);
-		if (this.transform.position.x - avion.transform.position.x < -5)
+		
+		//calcule la rotation
+		var x = Random.Range(-1,1);
+		var y = Random.Range(-1,1);
+		var z = Random.Range(-1,1);
+		
+		this.transform.Rotate(0,0,0);
+		if (this.transform.position.x - avion.transform.position.x < -10)
 	 	{
 	 		var i = this.transform.position.x - avion.transform.position.x;
 	 		Debug.Log(" comparR : "+ i );
@@ -22,12 +28,16 @@ function Update () {
 
 function OnTriggerEnter( other : Collider ) {
 
-	AvionVariables.nbDetruits = AvionVariables.nbDetruits + 50;
+	AvionVariables.nbDetruits = AvionVariables.nbDetruits + 100;
+	var expl;
+	expl = Instantiate(explosion,this.transform.position, this.transform.rotation) ;
+	Destroy(gameObject);
+	
 	if( other.name == "avion" ) 
 	{
 		AvionVariables.vie = AvionVariables.vie - 1;
 	}
-	else Debug.Log(" marche pas");
-	Destroy(gameObject);
+	
+	//Destroy(this.gameObject);
 
 }

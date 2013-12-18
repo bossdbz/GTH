@@ -1,34 +1,40 @@
-﻿#pragma strict
+#pragma strict
+public var explosionCaisse: Transform;
+
 
 function Start () {
 
 }
 
 function Update () {
-		this.transform.Translate(1,0,0);
+		this.transform.Translate(0,0,0);
 		var avion = GameObject.Find("avion");
 		
 		//calcule la rotation
-		var x = Random.Range(-5,5);
-		var y = Random.Range(-5,5);
-		var z = Random.Range(-5,5);
+		var x = Random.Range(-1,1);
+		var y = Random.Range(-1,1);
+		var z = Random.Range(-1,1);
 		
 		this.transform.Rotate(x,y,z);
-		if (this.transform.position.x - avion.transform.position.x < -5)
+		if (this.transform.position.x - avion.transform.position.x < -10)
 	 	{
-	 		Destroy(this);
+	 		//Destroy(this);
 	 		Destroy(gameObject);
 	 	}
 }
 
 function OnTriggerEnter( other : Collider ) {
 
-	AvionVariables.munitions = AvionVariables.munitions + 100;
-	if( other.name == "avion" ) 
-	{
-		if(AvionVariables.vie < 5 )			
-			Destroy(gameObject);
-	}
+	AvionVariables.nbDetruits = AvionVariables.nbDetruits + 50;
 	
-
+	//ecposion
+	var expl;
+	expl = Instantiate(explosionCaisse,this.transform.position, this.transform.rotation) ;
+	Destroy(gameObject);
+	
+	
+	
+	AvionVariables.munitions = AvionVariables.munitions + 100;
+	Destroy(gameObject);
+	Destroy(this);
 }
