@@ -1,38 +1,11 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ArménieBonus\ok.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\AddPiece.js">
     <Files>
-      <File FileName="Assets\Script\ArménieBonus\ok.js" Line="5" Column="4" />
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="8" Column="29" />
-      <File FileName="Assets\Script\Arménie\AddTresor.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\AddPiece.js" Line="11" Column="4" />
-      <File FileName="Assets\Script\Arménie\world.js" Line="30" Column="47" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="24" Column="7" />
-=======
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\bonus azteque\explosion.js">
-    <Files>
-      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="57" Column="90" />
-      <File FileName="Assets\Script\bonus azteque\caisse.js" Line="19" Column="67" />
-      <File FileName="Assets\Script\bonus azteque\missile.js" Line="28" Column="20" />
-      <File FileName="Assets\Script\bonus azteque\end.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\life.js" Line="17" Column="67" />
-      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="20" Column="67" />
-      <File FileName="Assets\Script\bonus azteque\explosion.js" Line="14" Column="25" />
-=======
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\world.js">
-    <Files>
-      <File FileName="Assets\Script\Bonus Syrie\AjoutTresor.js" Line="9" Column="33" />
-      <File FileName="Assets\Script\Arménie\AddPiece.js" Line="9" Column="17" />
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\AddTresor.js" Line="9" Column="30" />
-      <File FileName="Assets\Script\Arménie\world.js" Line="44" Column="1" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="20" Column="53" />
->>>>>>> e56adc9d398755b4ce87e65f93af2bc35ef494f7
->>>>>>> f799d0681e6d3db84f4202e98d6be9eaade5814d
+      <File FileName="Assets\Script\Arménie\world.js" Line="15" Column="23" />
+      <File FileName="Assets\Script\Arménie\Parcour.js" Line="18" Column="5" />
+      <File FileName="Assets\Script\Arménie\ParcourPointSuivant.js" Line="30" Column="1" />
+      <File FileName="Assets\Script\Arménie\AddPiece.js" Line="9" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -20,7 +20,7 @@ function AddPiece () {
 function Awake(){
 	//nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
 	
-	sceneName = EditorApplication.currentScene(); 
+	sceneName = EditorApplication.currentScene; 
 	
 	textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
 	//if(GameObject.Find("InterfaceJeux/TextPiece")){

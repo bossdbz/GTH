@@ -1,17 +1,28 @@
 ﻿#pragma strict
 
 var world : GameObject;
-
+private var superPiece : boolean;
 
 function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
-		Destroy(gameObject);
-		if( (GameVariable.nbrPiece % 50) == 0 ){
+		
+		superPiece = gameObject.CompareTag("superPiece");
+		
+		if(superPiece){
+			GameVariable.nbrVie++;
+			GameVariable.nbrPiece += 50;
+		}
+		else{
+			world.SendMessage("AddPiece");
+		}
+		
+		if( ((GameVariable.nbrPiece % 50) == 0) && (!superPiece) ){
 			GameVariable.nbrVie++;
 		}
-		world.SendMessage("AddPiece");
+		
 		if( audio ){
 			audio.Play();
 		}
+		Destroy(gameObject);
 	}
 }
