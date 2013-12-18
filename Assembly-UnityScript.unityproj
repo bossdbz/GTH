@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +51,9 @@
      <Compile Include="Assets\Packages\Angleterre\Furniture Pack 1 Free\Scripts\MouseOrbitZoom.js" />
      <Compile Include="Assets\Packages\Angleterre\MusiqueAmbiance.js" />
      <Compile Include="Assets\Packages\Angleterre\TestTableau1.js" />
+     <Compile Include="Assets\Packages\Laby\Addpieces.js" />
+     <Compile Include="Assets\Packages\Laby\Pieces.js" />
+     <Compile Include="Assets\Packages\Laby\Temps.js" />
      <Compile Include="Assets\Radar\EnemyAI.js" />
      <Compile Include="Assets\Radar\Radar.js" />
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
@@ -74,7 +77,14 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+<<<<<<< HEAD
      <Compile Include="Assets\Script\Bonus Syrie\AjoutTresor.js" />
+=======
+     <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
+     <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
+     <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
+     <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
+>>>>>>> 3d94011a1bdfeb3283116b363de5030673580bb0
      <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
@@ -86,7 +96,6 @@
      <Compile Include="Assets\Script\bonus azteque\missile.js" />
      <Compile Include="Assets\Script\bonus azteque\obstacles.js" />
      <Compile Include="Assets\Script\bonus azteque\temps.js" />
-     <Compile Include="Assets\Transition.js" />
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
      <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\pylon_kit\shader\Normal-BumpSpec.shader" />

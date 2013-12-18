@@ -11,13 +11,13 @@ if(enter == true && choisi == false)
 	{
 		
 		choixNiveau.fontStyle = FontStyle.Normal;
-		choixNiveau.text = ("Sélectionner le niveau" + ("\n") + ("Touche 1: Temple") + ("\n") + ("Touche 2: Labyrinthe") + ("\n") + ("Touche 3: Ile au trésor") + ("\n") + ("Touche 4: Chine") + ("\n") + ("Touche 5: Rester ici"));
+		choixNiveau.text = ("Sélectionner le niveau" + ("\n") + ("Touche 1: Grotte") + ("\n") + ("Touche 2: Labyrinthe") + ("\n") + ("Touche 3: Ile au trésor") + ("\n") + ("Touche 4: Chine") + ("\n") + ("Touche 5: Rester ici"));
 		
 		
 		
 		if(Input.GetKeyDown("1"))
 		{
-			Application.LoadLevel ("Temple Aztèque");
+			Application.LoadLevel ("Grotte");
 			
 		}
 		
