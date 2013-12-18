@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\AddPiece.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ArménieBonus\ok.js">
     <Files>
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="6" Column="32" />
+      <File FileName="Assets\Script\ArménieBonus\ok.js" Line="5" Column="4" />
+      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="8" Column="29" />
       <File FileName="Assets\Script\Arménie\AddTresor.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\AddPiece.js" Line="11" Column="4" />
       <File FileName="Assets\Script\Arménie\world.js" Line="30" Column="47" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="15" Column="25" />
+      <File FileName="Assets\Script\Arménie\Meurt.js" Line="24" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
