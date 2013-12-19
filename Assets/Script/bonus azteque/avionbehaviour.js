@@ -5,12 +5,14 @@ public var obstacle: Transform;
 public var life: Transform;
 public var caisse: Transform;
 
+
 function Start () {
-	
+	 
 }
 
 function Update () {
 
+	
 	var avion = GameObject.Find("avion");
 	
 	var	speed=300;		
@@ -31,12 +33,17 @@ function Update () {
 	if(this.transform.position.y >= 1300)
 		avion.transform.Translate(0,0,-10);
 
-	avion.transform.Translate(x,-(speed / 150),z);
-	
+	if(Time.timeScale != 0.0)
+	{
+		avion.transform.Translate(x,-(speed / 150),z);
+			//audio.Pause;
+	}
 	
 	
 	var helice = GameObject.Find("helice");
-	helice.transform.Rotate(4320*Time.deltaTime,0,0);
+	
+	if(Time.timeScale != 0.0)
+		helice.transform.Rotate(4320*Time.deltaTime,0,0);
 	
 	
 	var avionC = GameObject.Find("avion component");
@@ -54,11 +61,13 @@ function Update () {
 			if(AvionVariables.munitions > 0)
 			{
 				//if(i%2==0)
+				if(Time.timeScale != 0.0)
+				{
 					proj = Instantiate(projectile,gauche.transform.position, avion.transform.rotation) ;
-				//else 
 					proj2 = Instantiate(projectile,droite.transform.position, avion.transform.rotation) ;
-					
-				AvionVariables.munitions = AvionVariables.munitions - 1 ;
+				}
+				
+				AvionVariables.munitions = AvionVariables.munitions - 2 ;
 				i=i+1;
 			}
 			
@@ -70,7 +79,8 @@ function Update () {
 	 var ob;
      var y1 = Random.Range(-30,30);	
      var z1 = Random.Range(-30,30);	
-	 	
+	 
+	 if(Time.timeScale != 0.0){
 			if(obs==2)
 				ob = Instantiate(obstacle ,avion.transform.position + Vector3(160,y1,z1) , avion.transform.rotation) ;
 	 		if(obs==3)
@@ -79,9 +89,10 @@ function Update () {
 	 			ob = Instantiate(life ,avion.transform.position + Vector3(160,y1,z1) ,  Quaternion.identity) ;
 	 		if(vie==70)
 	 			ob = Instantiate(caisse ,avion.transform.position + Vector3(160,y1,z1) ,  Quaternion.identity) ;
-	 
+	 }
 	 // gere le trajet de tous les projectiles
 	 
+	if(Time.timeScale != 0.0){
 	
 	if(Input.GetKey("a") ) avion.transform.Rotate(0,120*Time.deltaTime,0);
 	else if(Input.GetKey("z") ) avion.transform.Rotate(0,-120*Time.deltaTime,0);
@@ -90,16 +101,18 @@ function Update () {
 	
 	}
 	
+	}
 	
 	
 	
 	
 	
-	if (AvionVariables.vie <= 0)
+	
+	/*if (AvionVariables.vie <= 0)
 	{
 		//Destroy(gameObject);
 		Application.LoadLevel("angleterre");
-	}
+	}*/
 }
 
 function OnTriggerEnter( other : Collider ) {

@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 public var textPieces:GUIText;
-private var nbPieces:int = 0;
+public var nbPieces:int = 0;
 
 function Awake() 
 { 

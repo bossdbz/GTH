@@ -8,7 +8,8 @@ function Start () {
 
 function Update () {
 		//var vitesse = Random.Range(0,30);
-		this.transform.Translate(0,4,0);
+		if(Time.timeScale != 0.0)
+			this.transform.Translate(0,4,0);
 		var avion = GameObject.Find("avion");
 		
 		//calcule la rotation
