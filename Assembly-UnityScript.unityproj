@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9B75D740-E2F2-3DCC-C435-73B8B756C470}</ProjectGuid>
+	<ProjectGuid>{8988FCE3-D1AD-4E9D-171B-19D76F5406FB}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_1;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -69,6 +69,7 @@
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
      <Compile Include="Assets\Script\Amazonie\porteETG1.js" />
      <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
+     <Compile Include="Assets\Script\Amazonie\teleportation.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
      <Compile Include="Assets\Script\Arménie\Chrono.js" />
@@ -80,14 +81,10 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-<<<<<<< HEAD
-     <Compile Include="Assets\Script\Bonus Syrie\AjoutTresor.js" />
-=======
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
->>>>>>> 3d94011a1bdfeb3283116b363de5030673580bb0
      <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
      <Compile Include="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
@@ -96,11 +93,13 @@
      <Compile Include="Assets\Script\Menu\menuInstruction.js" />
      <Compile Include="Assets\Script\Menu\menuPause.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
+     <Compile Include="Assets\Script\bonus azteque\Menu Info 3.js" />
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
      <Compile Include="Assets\Script\bonus azteque\explosion.js" />
      <Compile Include="Assets\Script\bonus azteque\life.js" />
+     <Compile Include="Assets\Script\bonus azteque\menuInfo2.js" />
      <Compile Include="Assets\Script\bonus azteque\missile.js" />
      <Compile Include="Assets\Script\bonus azteque\obstacles.js" />
      <Compile Include="Assets\Script\bonus azteque\temps.js" />
@@ -125,9 +124,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{4CCAC48E-1F1F-EEDC-E53F-D5DDAF59DF35}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{2F4DF1B9-EC7E-1541-53B7-2D0319ABB2E6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{6E5A9F9F-21B8-6EBE-521B-20C22F6FDD26}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{3C472FCC-9350-ACF6-8741-605D6997A124}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

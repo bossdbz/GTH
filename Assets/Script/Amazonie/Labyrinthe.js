@@ -23,8 +23,8 @@ function OnTriggerEnter( other : Collider )
  	// retrieve the GUIText Component and set the text 
  	if (GameVariables.beginLvl1!=1)
  	{
- 		GameVariables.textfield2 = GameObject.Find("GUIPanel/TxtTimer").GetComponent(GUIText); 
- 		GameVariables.textfield = GameObject.Find("GUIPanel/TxtObjets").GetComponent(GUIText); 
+ 		GameVariables.textfield2 = GameObject.Find("TxtTimer").GetComponent(GUIText); 
+ 		GameVariables.textfield = GameObject.Find("TxtObjets").GetComponent(GUIText); 
  		GameVariables.textfield.text = "Objets Trouvés 0/5";
  		GameVariables.beginLvl1=1;
  

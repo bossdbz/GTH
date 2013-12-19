@@ -37,7 +37,7 @@ function OnTriggerEnter( other : Collider )
 	if(GameVariables.RDCwinLvl1==1)
 	{
 		colliderTriged=true;
-		var textfield:GUIText = GameObject.Find("GUIPanel/TxtObjets").GetComponent(GUIText);
+		var textfield:GUIText = GameObject.Find("TxtObjets").GetComponent(GUIText);
 		textfield.text = "La porte s'ouvre"; 
 	}
 	

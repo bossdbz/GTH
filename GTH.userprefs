@@ -1,43 +1,24 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\AddPiece.js">
-    <Files>
-      <File FileName="Assets\Script\Arménie\world.js" Line="15" Column="23" />
-      <File FileName="Assets\Script\Arménie\Parcour.js" Line="18" Column="5" />
-      <File FileName="Assets\Script\Arménie\ParcourPointSuivant.js" Line="30" Column="1" />
-      <File FileName="Assets\Script\Arménie\AddPiece.js" Line="9" Column="52" />
-=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuInstruction.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuScripts.js">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="10" Column="3" />
-      <File FileName="Assets\Script\bonus azteque\caisse.js" Line="5" Column="20" />
-      <File FileName="Assets\Script\bonus azteque\life.js" Line="15" Column="3" />
-      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="13" Column="40" />
-      <File FileName="Assets\Script\Menu\menuPause.js" Line="21" Column="3" />
-      <File FileName="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" Line="39" Column="27" />
-      <File FileName="Assets\Script\Menu\clickBouton.js" Line="25" Column="1" />
-      <File FileName="Assets\Script\Menu\menuScripts.js" Line="22" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\end.js" Line="15" Column="13" />
-      <File FileName="Assets\Script\bonus azteque\temps.js" Line="13" Column="30" />
-      <File FileName="Assets\Script\Menu\menuInstruction.js" Line="54" Column="16" />
-=======
-      <File FileName="Assets\Script\Bonus Syrie\Transition.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Bonus Syrie\Chronomètre.js" Line="84" Column="1" />
+      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\Menu Info 3.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Bonus Syrie\AddTresorBonus.js" Line="1" Column="1" />
-      <File FileName="Assets\ZGONAssets\Editor\ZGONAssetPostProcessor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\AddTresor.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\menuInfo2.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuInstruction.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\checkpoint.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\end.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\teleportation.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="24" Column="30" />
+      <File FileName="Assets\Script\Amazonie\objetRDC.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\porteETG1.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\porteLaby.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\Chrono.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\Parcour.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Bonus Syrie\Transition2.js" Line="29" Column="30" />
->>>>>>> 3d94011a1bdfeb3283116b363de5030673580bb0
->>>>>>> 6ae305963c39008f15c2ecbfaf30657dd1621036
+      <File FileName="Assets\Script\Amazonie\intro.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\mort.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuScripts.js" Line="137" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
