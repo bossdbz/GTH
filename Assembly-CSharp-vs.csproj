@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Image\DesertFortressPack\Scripts\open_door.cs" />
+     <Compile Include="Assets\DesertFortressPack\Scripts\open_door.cs" />
      <Compile Include="Assets\Packages\Angleterre\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\Packages\Angleterre\Record_player\Scripts\RecordPlayer.cs" />
      <Compile Include="Assets\RainFX\RainCreator.cs" />

@@ -33,7 +33,13 @@ function Awake(){
 //<<<<<<< HEAD
 //=======
 	
+<<<<<<< HEAD
 
+=======
+	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
+//>>>>>>> 3d94011a1bdfeb3283116b363de5030673580bb0
+//=======
+>>>>>>> 43f9572129cc1d5a6337eee2d3e724dde59b6fef
 
 	
 	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
@@ -57,6 +63,7 @@ function Awake(){
 	
 	
 	OnGUI();
+}
 }
 
 function OnGUI() {

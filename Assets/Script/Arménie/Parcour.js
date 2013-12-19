@@ -12,15 +12,17 @@ var chronoTime : int;
 private var nomParcour : String;
 private var tresorCur : GameObject; 
 var declencher : boolean;
-private var i : int = 1;
+private var i : int;
 private var chronoGT : GUIText;
 private var textfield : String;
 private var gagner : boolean;
+private var tempsInitiale : int;
  
 
 
 function Awake(){
 	chronoGT = GameObject.Find("Chrono").GetComponent(GUIText);
+	tempsInitiale = chronoTime;
 }
 
 function Update(){
@@ -77,6 +79,8 @@ function enable(go : GameObject, bool : boolean){
 function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
 	Debug.Log("collision parcour");
+		i = 1;
+		chronoTime = tempsInitiale;
 		StartChrono();
 		nomParcour = transform.gameObject.name;
 		tresorCur = GameObject.Find(nomParcour+ "/Tresor" + numParcour + "-" + i);
