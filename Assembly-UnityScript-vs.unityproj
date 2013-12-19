@@ -82,7 +82,12 @@
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
      <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
+     <Compile Include="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
+     <Compile Include="Assets\Script\Menu\clickBouton.js" />
+     <Compile Include="Assets\Script\Menu\menuFin.js" />
+     <Compile Include="Assets\Script\Menu\menuInstruction.js" />
+     <Compile Include="Assets\Script\Menu\menuPause.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />

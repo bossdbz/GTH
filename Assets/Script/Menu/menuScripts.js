@@ -36,7 +36,7 @@ function Update () {
 		
 	Debug.Log("pos : "+ obj2.transform.position.x+","+obj2.transform.position.y+","+obj2.transform.position.z);*/
 
-
+	if(Time.timeScale == 0.0) Time.timeScale = 1.0;
 	var Cam:  GameObject = GameObject.FindGameObjectWithTag("MainCamera");
 	if(anim1==1)
 	{
