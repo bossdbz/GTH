@@ -1,4 +1,13 @@
 ﻿<Properties>
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\AddPiece.js">
+    <Files>
+      <File FileName="Assets\Script\Arménie\world.js" Line="15" Column="23" />
+      <File FileName="Assets\Script\Arménie\Parcour.js" Line="18" Column="5" />
+      <File FileName="Assets\Script\Arménie\ParcourPointSuivant.js" Line="30" Column="1" />
+      <File FileName="Assets\Script\Arménie\AddPiece.js" Line="9" Column="52" />
+=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Bonus Syrie\Transition2.js">
     <Files>
@@ -14,6 +23,7 @@
       <File FileName="Assets\Script\Arménie\Chrono.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\Parcour.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Bonus Syrie\Transition2.js" Line="29" Column="30" />
+>>>>>>> 3d94011a1bdfeb3283116b363de5030673580bb0
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

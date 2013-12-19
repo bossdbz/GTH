@@ -80,10 +80,14 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\Bonus Syrie\AjoutTresor.js" />
+=======
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
+>>>>>>> 3d94011a1bdfeb3283116b363de5030673580bb0
      <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
