@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -77,14 +77,10 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-<<<<<<< HEAD
-     <Compile Include="Assets\Script\Bonus Syrie\AjoutTresor.js" />
-=======
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
->>>>>>> 3d94011a1bdfeb3283116b363de5030673580bb0
      <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
