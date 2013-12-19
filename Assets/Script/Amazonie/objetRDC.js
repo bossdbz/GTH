@@ -40,8 +40,8 @@ function AddBlanc () {
 function OnTriggerEnter( other : Collider ) {
 
 	var GlobalsScenes : GameObject;
-	var textfield:GUIText = GameObject.Find("GUIPanel/TxtObjets").GetComponent(GUIText);
-	var textfield2:GUIText = GameObject.Find("GUIPanel/TxtTimer").GetComponent(GUIText); 
+	var textfield:GUIText = GameObject.Find("TxtObjets").GetComponent(GUIText);
+	var textfield2:GUIText = GameObject.Find("TxtTimer").GetComponent(GUIText); 
 
 	if(other.gameObject.CompareTag("Player")){
 		Destroy(gameObject);

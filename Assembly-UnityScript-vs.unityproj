@@ -69,6 +69,7 @@
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
      <Compile Include="Assets\Script\Amazonie\porteETG1.js" />
      <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
+     <Compile Include="Assets\Script\Amazonie\teleportation.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
      <Compile Include="Assets\Script\Arménie\Chrono.js" />
@@ -79,10 +80,21 @@
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+>>>>>>> 5ed822022fec06654a2b171c19e79e9dbdbb0a23
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a0dff6e1d0bc86e569699dc695cb17ce60aba5a5
+     <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
+>>>>>>> 5ed822022fec06654a2b171c19e79e9dbdbb0a23
      <Compile Include="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\clickBouton.js" />
@@ -90,10 +102,12 @@
      <Compile Include="Assets\Script\Menu\menuInstruction.js" />
      <Compile Include="Assets\Script\Menu\menuPause.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
+     <Compile Include="Assets\Script\bonus azteque\Menu Info 3.js" />
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
      <Compile Include="Assets\Script\bonus azteque\life.js" />
+     <Compile Include="Assets\Script\bonus azteque\menuInfo2.js" />
      <Compile Include="Assets\Script\bonus azteque\missile.js" />
      <Compile Include="Assets\Script\bonus azteque\obstacles.js" />
      <Compile Include="Assets\Script\bonus azteque\temps.js" />
