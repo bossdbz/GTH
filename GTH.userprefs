@@ -1,8 +1,31 @@
 ﻿<Properties>
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\world.js">
+    <Files>
+      <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\Menu Info 3.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\menuInfo2.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuInstruction.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\checkpoint.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\end.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\teleportation.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\objetRDC.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\porteETG1.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\porteLaby.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\intro.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\mort.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuScripts.js" Line="137" Column="52" />
+=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\world.js">
     <Files>
       <File FileName="Assets\Script\Arménie\world.js" Line="63" Column="2" />
+>>>>>>> 43f9572129cc1d5a6337eee2d3e724dde59b6fef
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

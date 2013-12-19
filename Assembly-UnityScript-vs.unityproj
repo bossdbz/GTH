@@ -80,10 +80,20 @@
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+=======
+>>>>>>> 43f9572129cc1d5a6337eee2d3e724dde59b6fef
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a91b48df89f44de3be68f05fe89ad0e650419e56
+     <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
+=======
+>>>>>>> 43f9572129cc1d5a6337eee2d3e724dde59b6fef
      <Compile Include="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\clickBouton.js" />
@@ -95,6 +105,7 @@
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
+     <Compile Include="Assets\Script\bonus azteque\explosion.js" />
      <Compile Include="Assets\Script\bonus azteque\life.js" />
      <Compile Include="Assets\Script\bonus azteque\menuInfo2.js" />
      <Compile Include="Assets\Script\bonus azteque\missile.js" />
