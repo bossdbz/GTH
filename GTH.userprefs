@@ -1,11 +1,33 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuPause.js">
     <Files>
       <File FileName="Assets\Script\Arménie\world.js" Line="61" Column="63" />
       <File FileName="Assets\Script\Arménie\ParcourPointSuivant.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\Parcour.js" Line="82" Column="9" />
       <File FileName="Assets\Script\Menu\menuPause.js" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuScripts.js">
+    <Files>
+      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\Menu Info 3.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\menuInfo2.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuInstruction.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\checkpoint.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\end.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\teleportation.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="24" Column="30" />
+      <File FileName="Assets\Script\Amazonie\objetRDC.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\porteETG1.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\porteLaby.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\intro.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\mort.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuScripts.js" Line="137" Column="52" />
+>>>>>>> 1d04171f801d015b2eb77d5d9855faad6b073ad1
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

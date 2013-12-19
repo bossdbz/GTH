@@ -143,4 +143,7 @@ function OnMouseDown()
 	if (this.name == "niveauBonus1")Application.LoadLevel("bonus azteque");
 	if (this.name == "niveauBonus2")Application.LoadLevel("ArménieBonus");
 	if (this.name == "niveauBonus3")Application.LoadLevel("Bonus Syrie");
+	if (this.name == "niveauBonus5")Application.LoadLevel("Grotte");
+	if (this.name == "niveauBonus6")Application.LoadLevel("IleTresor");
+	if (this.name == "niveauBonus7")Application.LoadLevel("Labyrinthe");
 }

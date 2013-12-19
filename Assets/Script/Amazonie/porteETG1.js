@@ -29,7 +29,7 @@ function Update () {
 			 Destroy(porte);	
 			//}
 			
-			var textfield:GUIText = GameObject.Find("GUIPanel/TxtObjets").GetComponent(GUIText);
+			var textfield:GUIText = GameObject.Find("TxtObjets").GetComponent(GUIText);
 		textfield.text = "La porte s'ouvre"; 
 	}	
 }
