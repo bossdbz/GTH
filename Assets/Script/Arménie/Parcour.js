@@ -11,7 +11,7 @@ var chronoTime : int;
 
 private var nomParcour : String;
 private var tresorCur : GameObject; 
-private var declencher : boolean;
+var declencher : boolean;
 private var i : int = 1;
 private var chronoGT : GUIText;
 private var textfield : String;
@@ -23,7 +23,8 @@ function Awake(){
 	chronoGT = GameObject.Find("Chrono").GetComponent(GUIText);
 }
 
-function update(){
+function Update(){
+Debug.Log("dcdcd");
 	if ( declencher ){
 		if( (chronoTime > 0) && (i <= nombrePoint) ){			
 		
@@ -31,7 +32,7 @@ function update(){
 			enable(tresorCur, true);
 			Debug.Log("normal");
 		}
-		if( (chronoTime > 0) && (i > nombrePoint) ){
+		else if( (chronoTime > 0) && (i > nombrePoint) ){
 				gagner = true;
 				chronoGT.enabled = false;
 				Debug.Log("Gagner1");		
@@ -39,7 +40,7 @@ function update(){
 				Destroy(gameObject);//*/
 				//stopParcour();
 		}
-		if (chronoTime == 0){
+		else{
 			declencher = false;
 			chronoGT.enabled = false;
 			Debug.Log("Perdu1");//*/

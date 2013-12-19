@@ -1,10 +1,17 @@
 ﻿#pragma strict
 
-function Start () {
 
+var parcourScript : Parcour;
+
+function Awake () {
+	parcourScript = transform.parent.gameObject.GetComponent("Parcour");
 }
 
 function Update () {
+
+	if ( !parcourScript.declencher ) {
+		parcourScript.enable( gameObject , false );
+	}
 
 }
 
@@ -12,9 +19,9 @@ function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
 	Debug.Log("collision mur jaune");
 		//Debug.Log(transform.parent.gameObject.GetComponent(MonoBehaviour).name);
-		enable(gameObject, false);
+		parcourScript.enable(gameObject, false);
 		transform.parent.gameObject.SendMessage("pointSuivant");
-		transform.parent.gameObject.SendMessage("update");	
+		//transform.parent.gameObject.SendMessage("update");	
 		//Destroy(gameObject);
 		
 	}
