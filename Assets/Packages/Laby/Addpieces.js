@@ -3,14 +3,6 @@
 public var monde:GameObject; 
 
 
-function Start () {
-
-}
-
-function Update () {
-
-}
-
 function OnTriggerEnter (other : Collider)
 {
 	if (other.gameObject.tag == "Player") 
@@ -18,6 +10,10 @@ function OnTriggerEnter (other : Collider)
 		Destroy(gameObject);
 		monde = GameObject.Find("World");
 		monde.GetComponent(Pieces).AddScore();
-		//monde.GetComponent(Temps).SendMessage("delai");
+		if(((monde.GetComponent(Pieces).nbPieces) % 500) == 0)
+		{
+			monde.GetComponent(Vie).ajouterVie();
+		}
+		
 	}
 }
