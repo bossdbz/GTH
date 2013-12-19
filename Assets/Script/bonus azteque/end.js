@@ -1,11 +1,13 @@
 ﻿#pragma strict
 
-function Start () {
 
+
+function Start () {
+	Time.timeScale = 1.0;
 }
 
 function Update () {
-	
+
 }
 
 function OnTriggerEnter( other : Collider ) {

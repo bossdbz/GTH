@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 
 var enter : boolean;
 var DescTab : GUIText;
@@ -48,12 +48,12 @@ if(enter == true && ShowDescTab == false)
 
 	
 if(enter == false && ShowDescTab == true)
-{
-	ShowDescTab = false;
-	DescTab.text = ("") + ("");
+	{
+		ShowDescTab = false;
+		DescTab.text = ("") + ("");
 
 
-}
+	}
 }
 
 function FadeDesc(){
