@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +57,7 @@
      <Compile Include="Assets\Packages\Laby\Temps.js" />
      <Compile Include="Assets\Packages\Laby\TresorFin.js" />
      <Compile Include="Assets\Packages\Laby\Vie.js" />
+     <Compile Include="Assets\Prefab\ArménieBonus\Arménie.js" />
      <Compile Include="Assets\Radar\EnemyAI.js" />
      <Compile Include="Assets\Radar\Radar.js" />
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Script\Amazonie\teleportation.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
+     <Compile Include="Assets\Script\Arménie\Bonus.js" />
      <Compile Include="Assets\Script\Arménie\Chrono.js" />
      <Compile Include="Assets\Script\Arménie\GameVariable.js" />
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
@@ -81,19 +83,10 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-=======
->>>>>>> 43f9572129cc1d5a6337eee2d3e724dde59b6fef
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> a91b48df89f44de3be68f05fe89ad0e650419e56
-     <Compile Include="Assets\Script\Bonus Syrie\voiture.js" />
-=======
->>>>>>> 43f9572129cc1d5a6337eee2d3e724dde59b6fef
      <Compile Include="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\clickBouton.js" />
