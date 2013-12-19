@@ -28,6 +28,11 @@ function OnTriggerEnter( other : Collider ) {
 			Application.LoadLevel("Bonus Syrie");
 		}
 		
+		else if(sceneName == "Assets/Scene/Syrie.unity"){
+			GameVariable.nbrPiece=0;
+			Application.LoadLevel("Syrie");
+		}
+		
 		else{
 			Application.LoadLevel("ArménieBonus");
 		}

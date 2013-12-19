@@ -39,14 +39,14 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Image\DesertFortressPack\Scripts\open_door.cs" />
+     <Compile Include="Assets\DesertFortressPack\Scripts\open_door.cs" />
      <Compile Include="Assets\Packages\Angleterre\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\Packages\Angleterre\Record_player\Scripts\RecordPlayer.cs" />
      <Compile Include="Assets\RainFX\RainCreator.cs" />
