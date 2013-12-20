@@ -84,11 +84,8 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\Tresor.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
-<<<<<<< HEAD
-=======
      <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
->>>>>>> 48777aa49c544b6fe75f745515ff169baaea31b4
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
@@ -133,6 +130,10 @@
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{2F4DF1B9-EC7E-1541-53B7-2D0319ABB2E6}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

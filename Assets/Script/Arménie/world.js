@@ -5,7 +5,7 @@
 private var textTresor : GUIText;
 private var textPiece : GUIText;
 private var textVie : GUIText;
-private var sceneName : String;
+private var sceneName : int;
 private var textTresorBonus : GUIText;
 
 
@@ -27,19 +27,18 @@ function AddTresorBonus () {
 
 function Awake(){
 	//nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
-	sceneName = EditorApplication.currentScene; 
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
+	sceneName = Application.loadedLevel; 
+	
 	textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
 
 	textPiece = GameObject.Find("InterfaceJeux/TextPiece").GetComponent(GUIText);
 	
 	
 	
-	}
 	
 	
-	else if (sceneName == "Assets/Scene/Bonus Syrie.unity"){
+	
+	if (sceneName == 7){
 	textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
 	}
 	
@@ -48,7 +47,7 @@ function Awake(){
 	
 	
 	OnGUI();
-}
+
 }
 
 function OnGUI() {
