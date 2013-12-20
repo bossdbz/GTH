@@ -31,16 +31,8 @@ function Awake(){
 	sceneName = EditorApplication.currentScene; 
 
 
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
-
 
 	
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
-
-	
-
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
 
 	textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
 
@@ -48,10 +40,10 @@ function Awake(){
 	
 	
 	
-	}
+
 	
 	
-	else if (sceneName == "Assets/Scene/Bonus Syrie.unity"){
+	if (sceneName == "Assets/Scene/Bonus Syrie.unity"){
 	textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
 	}
 	
@@ -61,8 +53,7 @@ function Awake(){
 	
 	OnGUI();
 }
-}
-}}
+
 
 function OnGUI() {
 	
