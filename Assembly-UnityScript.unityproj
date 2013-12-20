@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -84,8 +84,11 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\Tresor.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+<<<<<<< HEAD
+=======
      <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+>>>>>>> 48777aa49c544b6fe75f745515ff169baaea31b4
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
@@ -129,8 +132,6 @@
      <None Include="Assets\Packages\Arménie\Nobiax Free Textures 39\Nobiax Free Textures 39.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{2F4DF1B9-EC7E-1541-53B7-2D0319ABB2E6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{3C472FCC-9350-ACF6-8741-605D6997A124}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
