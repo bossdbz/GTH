@@ -1,5 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\Meurt.js">
     <Files>
       <File FileName="Assets\Script\Arménie\CountTresor.js" Line="10" Column="1" />
@@ -11,6 +12,18 @@
       <File FileName="Assets\Script\Arménie\StopAnimationBonhomme.js" Line="1" Column="1" />
       <File FileName="Assets\Script\ArménieBonus\Syrie.js" Line="12" Column="30" />
       <File FileName="Assets\Script\Arménie\Meurt.js" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Iran\gameOver.js">
+    <Files>
+      <File FileName="Assets\Script\Arménie\world.js" Line="5" Column="24" />
+      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="35" Column="2" />
+      <File FileName="Assets\Script\Bonus Syrie\AddTresorBonus.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\Meurt.js" Line="16" Column="16" />
+      <File FileName="Assets\Script\Iran\gameOver.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Iran\objets.js" Line="16" Column="22" />
+      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="28" Column="32" />
+>>>>>>> 5b20f17c16ffe6571b174155e1e73a6c0e042480
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

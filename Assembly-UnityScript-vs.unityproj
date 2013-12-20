@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +62,7 @@
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
      <Compile Include="Assets\Script\Amazonie\GlobalsScenes.js" />
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
+     <Compile Include="Assets\Script\Amazonie\cheat.js" />
      <Compile Include="Assets\Script\Amazonie\checkpoint.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
      <Compile Include="Assets\Script\Amazonie\mort.js" />
@@ -83,12 +84,17 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\Tresor.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+<<<<<<< HEAD
      <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+=======
+>>>>>>> 5b20f17c16ffe6571b174155e1e73a6c0e042480
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
+     <Compile Include="Assets\Script\Iran\gameOver.js" />
+     <Compile Include="Assets\Script\Iran\objets.js" />
      <Compile Include="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\clickBouton.js" />
@@ -100,7 +106,6 @@
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
-     <Compile Include="Assets\Script\bonus azteque\explosion.js" />
      <Compile Include="Assets\Script\bonus azteque\life.js" />
      <Compile Include="Assets\Script\bonus azteque\menuInfo2.js" />
      <Compile Include="Assets\Script\bonus azteque\missile.js" />

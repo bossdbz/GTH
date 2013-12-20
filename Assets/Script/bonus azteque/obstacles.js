@@ -33,7 +33,7 @@ function OnTriggerEnter( other : Collider ) {
 	var expl;
 	expl = Instantiate(explosion,this.transform.position, this.transform.rotation) ;
 	Destroy(gameObject);
-	
+	Destroy(this);
 	if( other.name == "avion" ) 
 	{
 		AvionVariables.vie = AvionVariables.vie - 1;
