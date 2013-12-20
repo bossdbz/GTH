@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-private var nbrTresor : int = 5;
+private var nbrTresor : int = 3;
 
 function Start () {
 
