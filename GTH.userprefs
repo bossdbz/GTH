@@ -1,17 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Iran\objets.js">
     <Files>
-      <File FileName="Assets\Script\Arménie\world.js" Line="5" Column="24" />
-      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="35" Column="2" />
+      <File FileName="GTH.sln" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\Meurt.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Bonus Syrie\AddTresorBonus.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="4" Column="1" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="16" Column="16" />
-      <File FileName="Assets\Script\Iran\gameOver.js" Line="4" Column="1" />
+      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\Meurt.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Iran\gameOver.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Iran\objets.js" Line="11" Column="25" />
-      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="84" Column="44" />
+      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Menu\menuFin.js" Line="39" Column="2" />
+      <File FileName="Assets\Script\Menu\menuFin.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
