@@ -82,16 +82,6 @@
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
->>>>>>> 1ac438b56db2ade02b22692fee38705ee72cc1cb
->>>>>>> 5cfffb93f5626f09c28d4b3c244bd745dd154a8c
->>>>>>> 4a70a28c77478ad80811d33dce6e54d1c36596b7
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
@@ -132,8 +122,6 @@
      <None Include="Assets\Packages\Arménie\Nobiax Free Textures 39\Nobiax Free Textures 39.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{2F4DF1B9-EC7E-1541-53B7-2D0319ABB2E6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{3C472FCC-9350-ACF6-8741-605D6997A124}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
