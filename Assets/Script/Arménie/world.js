@@ -27,21 +27,9 @@ function AddTresorBonus () {
 
 function Awake(){
 	//nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
-	
 	sceneName = EditorApplication.currentScene; 
-<<<<<<< HEAD
-
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
-
-
-	
-	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
-
-	
-=======
 	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
 	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
->>>>>>> 5cfffb93f5626f09c28d4b3c244bd745dd154a8c
 	textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
 
 	textPiece = GameObject.Find("InterfaceJeux/TextPiece").GetComponent(GUIText);
