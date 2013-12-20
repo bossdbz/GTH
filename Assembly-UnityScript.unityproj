@@ -84,9 +84,22 @@
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\Tresor.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+<<<<<<< HEAD
      <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+=======
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
+     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+>>>>>>> 48777aa49c544b6fe75f745515ff169baaea31b4
+>>>>>>> 56179bc8e719da66e25bd651f85405aa0150162a
+>>>>>>> 8681734b956a5a0e3a125e32d8c6a32837e94451
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
+     <Compile Include="Assets\Script\Bonus Syrie\Chronometre2.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
