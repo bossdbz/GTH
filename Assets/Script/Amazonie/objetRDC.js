@@ -89,7 +89,7 @@ function OnTriggerEnter( other : Collider ) {
 		if((GameVariables.objetbleu) && (GameVariables.objetjaune) && (GameVariables.objetrouge) && (GameVariables.objetvert) && (GameVariables.objetblanc))
 		{
 			textfield2.text = ""; 
-			textfield.text = "bravo !"; 
+			//textfield.text = "bravo !"; 
 			GameVariables.RDCwinLvl1=1;
 		}
 		
