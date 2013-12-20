@@ -17,12 +17,18 @@ private var chronoGT : GUIText;
 private var textfield : String;
 private var gagner : boolean;
 private var tempsInitiale : int;
- 
+private var infoParcour : GameObject;
+private var tresor : GameObject;
 
 
 function Awake(){
 	chronoGT = GameObject.Find("Chrono").GetComponent(GUIText);
 	tempsInitiale = chronoTime;
+	infoParcour = GameObject.Find("InfoParcour");
+	tresor = GameObject.Find("Tresor"+numParcour);
+	//Debug.Log("mon tresor" +tresor);
+	
+	
 }
 
 function Update(){
@@ -35,6 +41,7 @@ Debug.Log("dcdcd");
 			Debug.Log("normal");
 		}
 		else if( (chronoTime > 0) && (i > nombrePoint) ){
+				enable(tresor, true);
 				gagner = true;
 				chronoGT.enabled = false;
 				Debug.Log("Gagner1");		
@@ -43,6 +50,7 @@ Debug.Log("dcdcd");
 				//stopParcour();
 		}
 		else{
+			
 			declencher = false;
 			chronoGT.enabled = false;
 			Debug.Log("Perdu1");//*/
@@ -79,6 +87,7 @@ function enable(go : GameObject, bool : boolean){
 function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
 	Debug.Log("collision parcour");
+		//infoParcour.active = true;
 		i = 1;
 		chronoTime = tempsInitiale;
 		StartChrono();

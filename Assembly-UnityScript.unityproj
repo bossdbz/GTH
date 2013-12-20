@@ -57,7 +57,6 @@
      <Compile Include="Assets\Packages\Laby\Temps.js" />
      <Compile Include="Assets\Packages\Laby\TresorFin.js" />
      <Compile Include="Assets\Packages\Laby\Vie.js" />
-     <Compile Include="Assets\Prefab\ArménieBonus\Arménie.js" />
      <Compile Include="Assets\Radar\EnemyAI.js" />
      <Compile Include="Assets\Radar\Radar.js" />
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
@@ -75,13 +74,16 @@
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
      <Compile Include="Assets\Script\Arménie\Bonus.js" />
      <Compile Include="Assets\Script\Arménie\Chrono.js" />
+     <Compile Include="Assets\Script\Arménie\CountTresor.js" />
      <Compile Include="Assets\Script\Arménie\GameVariable.js" />
      <Compile Include="Assets\Script\Arménie\Meurt.js" />
      <Compile Include="Assets\Script\Arménie\Parcour.js" />
      <Compile Include="Assets\Script\Arménie\ParcourPointSuivant.js" />
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
+     <Compile Include="Assets\Script\Arménie\Tresor.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
+     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />

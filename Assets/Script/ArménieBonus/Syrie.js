@@ -9,5 +9,5 @@ function Update () {
 }
 
 function OnTriggerEnter( other : Collider ) {
-	Application.LoadLevel("Arménie");
+	Application.LoadLevel("Syrie");
 }
