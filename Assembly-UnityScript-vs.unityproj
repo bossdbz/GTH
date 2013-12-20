@@ -87,6 +87,8 @@
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition2.js" />
+     <Compile Include="Assets\Script\Iran\gameOver.js" />
+     <Compile Include="Assets\Script\Iran\objets.js" />
      <Compile Include="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" />
      <Compile Include="Assets\Script\Menu\audio.js" />
      <Compile Include="Assets\Script\Menu\clickBouton.js" />
