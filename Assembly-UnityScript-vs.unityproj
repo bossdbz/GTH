@@ -39,13 +39,14 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DesertFortressPack\Scripts\open_door.js" />
      <Compile Include="Assets\Packages\Angleterre\ChoixNiveau.js" />
      <Compile Include="Assets\Packages\Angleterre\Furniture Pack 1 Free\Scripts\MouseOrbitZoom.js" />
      <Compile Include="Assets\Packages\Angleterre\MusiqueAmbiance.js" />
@@ -82,13 +83,6 @@
      <Compile Include="Assets\Script\Arménie\Question.js" />
      <Compile Include="Assets\Script\Arménie\StopAnimationBonhomme.js" />
      <Compile Include="Assets\Script\Arménie\world.js" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
->>>>>>> 1ac438b56db2ade02b22692fee38705ee72cc1cb
->>>>>>> 5cfffb93f5626f09c28d4b3c244bd745dd154a8c
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Transition.js" />
