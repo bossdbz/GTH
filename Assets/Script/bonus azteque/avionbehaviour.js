@@ -63,11 +63,12 @@ function Update () {
 				//if(i%2==0)
 				if(Time.timeScale != 0.0)
 				{
-					proj = Instantiate(projectile,gauche.transform.position, avion.transform.rotation) ;
-					proj2 = Instantiate(projectile,droite.transform.position, avion.transform.rotation) ;
+					if(i%2==0)
+						proj = Instantiate(projectile,gauche.transform.position, avion.transform.rotation) ;
+					else
+						proj2 = Instantiate(projectile,droite.transform.position, avion.transform.rotation) ;
+					AvionVariables.munitions = AvionVariables.munitions - 1;
 				}
-				
-				AvionVariables.munitions = AvionVariables.munitions - 2 ;
 				i=i+1;
 			}
 			
@@ -116,7 +117,7 @@ function Update () {
 }
 
 function OnTriggerEnter( other : Collider ) {
-
+	Debug.Log("WTF");
 
 }
 
