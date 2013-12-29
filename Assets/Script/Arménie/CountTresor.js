@@ -7,7 +7,7 @@ function Awake () {
 }
 
 function Update () {
-
+	
 }
 
 function OnTriggerEnter( other : Collider ) {
