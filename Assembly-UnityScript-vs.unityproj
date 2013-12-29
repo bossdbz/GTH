@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +86,25 @@
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
+     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+=======
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
+     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
+>>>>>>> 48777aa49c544b6fe75f745515ff169baaea31b4
+>>>>>>> 56179bc8e719da66e25bd651f85405aa0150162a
+>>>>>>> 8681734b956a5a0e3a125e32d8c6a32837e94451
+>>>>>>> 2cf5f7af11f510de4dfdb015e0ce6afedc95d9c8
+>>>>>>> bc2bf5858e025df64440b722483f21c77ddaca78
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronometre2.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />
