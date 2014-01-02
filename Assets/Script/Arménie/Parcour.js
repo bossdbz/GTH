@@ -32,7 +32,7 @@ function Awake(){
 }
 
 function Update(){
-Debug.Log("dcdcd");
+//Debug.Log("dcdcd");
 	if ( declencher ){
 		if( (chronoTime > 0) && (i <= nombrePoint) ){			
 		
