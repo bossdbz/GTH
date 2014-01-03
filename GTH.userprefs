@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\RéponseQuestion.js">
     <Files>
@@ -12,6 +13,30 @@
       <File FileName="Assets\Script\Arménie\StopAnimationBonhomme.js" Line="21" Column="59" />
       <File FileName="Assets\Script\Menu\menuScripts.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\RéponseQuestion.js" Line="37" Column="24" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Amazonie\infoSerious.js">
+    <Files>
+      <File FileName="Assets\Script\Amazonie\objetRDC.js" Line="14" Column="39" />
+      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuPause.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuInstruction.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\clickBouton.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\infoSerious.js" Line="38" Column="24" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuPause.js">
+    <Files>
+      <File FileName="Assets\Script\Arménie\AddTresor.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\ParcourPointSuivant.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\Parcour.js" Line="35" Column="1" />
+      <File FileName="Assets\Script\Arménie\Quiz.js" Line="19" Column="22" />
+      <File FileName="Assets\Script\ArménieBonus\ok.js" Line="22" Column="46" />
+      <File FileName="Assets\Script\Menu\menuPause.js" Line="30" Column="25" />
+      <File FileName="Assets\Script\Arménie\world.js" Line="36" Column="1" />
+>>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
+>>>>>>> a6df1bc2d059d10ef5f691c58f1788786be127b7
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
