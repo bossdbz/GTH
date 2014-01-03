@@ -78,6 +78,8 @@ public static class GameVariables
 		textfield2.text="";
    	 	textfield.text="";   
 	}
+	
+	// les infos serieuses
 
 }
 
