@@ -1,1 +1,0 @@
-Assets/DesertFortressPack/Materials/Textures/desertfortress_wall_A_diff_spec2.png
