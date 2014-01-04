@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Packages\Laby\Vie.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Audio\Chine\PasNeige.js">
     <Files>
       <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\MusiqueAmbiance.js" Line="1" Column="1" />
@@ -8,9 +8,10 @@
       <File FileName="Assets\Packages\Angleterre\ChoixNiveau.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Pieces.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Addpieces.js" Line="1" Column="1" />
-      <File FileName="Assets\Packages\Laby\Vie.js" Line="36" Column="30" />
-      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="22" Column="59" />
+      <File FileName="Assets\Packages\Laby\Vie.js" Line="1" Column="1" />
+      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\TresorFin.js" Line="1" Column="1" />
+      <File FileName="Assets\Audio\Chine\PasNeige.js" Line="8" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
