@@ -5,15 +5,24 @@ var character : CharacterController;
 
 function Update () {
 
-if (Input.GetKeyDown ("Z") && character.isGrounded)
+if (( Input.GetButtonDown( "Horizontal" ) || Input.GetButtonDown( "Vertical" ) ) && !audio.isPlaying && character.isGrounded)
 {
     audio.clip = snow;
+    audio.volume = 0.1f;
  	audio.Play();
 }
 
-if (Input.GetKeyUp ("w"))
+if (!Input.GetButton( "Horizontal" ) && !Input.GetButton( "Vertical" ) && audio.isPlaying)
 {
     audio.Stop();
 }
 
+if (!character.isGrounded)
+{
+	audio.mute = true;
+}
+else
+{
+	audio.mute = false;
+}
 }

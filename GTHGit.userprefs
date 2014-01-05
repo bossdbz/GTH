@@ -1,17 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Audio\Chine\PasNeige.js">
     <Files>
       <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\MusiqueAmbiance.js" Line="1" Column="1" />
-      <File FileName="Assets\Packages\Laby\Temps.js" Line="18" Column="18" />
+      <File FileName="Assets\Packages\Laby\Temps.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\ChoixNiveau.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Pieces.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Addpieces.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Vie.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\TresorFin.js" Line="1" Column="1" />
-      <File FileName="Assets\Audio\Chine\PasNeige.js" Line="8" Column="51" />
+      <File FileName="Assets\Audio\Chine\PasNeige.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
