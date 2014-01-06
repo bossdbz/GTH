@@ -1,6 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Audio\Chine\PasNeige.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Packages\Laby\PerdreVie.js">
     <Files>
       <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\MusiqueAmbiance.js" Line="1" Column="1" />
@@ -9,7 +9,7 @@
       <File FileName="Assets\Packages\Laby\Pieces.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Addpieces.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Vie.js" Line="1" Column="1" />
-      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="1" Column="1" />
+      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="16" Column="35" />
       <File FileName="Assets\Packages\Laby\TresorFin.js" Line="1" Column="1" />
       <File FileName="Assets\Audio\Chine\PasNeige.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
