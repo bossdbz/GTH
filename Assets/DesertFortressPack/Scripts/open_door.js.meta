@@ -2,7 +2,9 @@ fileFormatVersion: 2
 guid: d4562b053b5de32449a39275d316c3a5
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ouvrir: {fileID: 8300000, guid: af92c2708f81caa44bd37fd93630e01e, type: 3}
+  - fermer: {fileID: 8300000, guid: f5796aa9b0829c24fb61a30e4cd4ab3b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

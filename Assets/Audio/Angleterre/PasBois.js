@@ -1,14 +1,14 @@
 ﻿#pragma strict
 
-var soldur : AudioClip;
+var bois : AudioClip;
 var character : CharacterController;
 
 function Update () {
 
 if (( Input.GetButtonDown( "Horizontal" ) || Input.GetButtonDown( "Vertical" ) ) && !audio.isPlaying && character.isGrounded)
 {
-    audio.clip = soldur;
-    //audio.volume = 0.1f;
+    audio.clip = bois;
+    audio.volume = 0.1f;
     audio.pitch = Random.Range(0.9, 1.1);
  	audio.Play();
 }

@@ -1,19 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Packages\Laby\PerdreVie.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Audio\Angleterre\PasBois.js">
     <Files>
       <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\MusiqueAmbiance.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Temps.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\ChoixNiveau.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Pieces.js" Line="1" Column="1" />
-      <File FileName="Assets\Packages\Laby\Addpieces.js" Line="4" Column="27" />
+      <File FileName="Assets\Packages\Laby\Addpieces.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Vie.js" Line="1" Column="1" />
-      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="11" Column="3" />
+      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="12" Column="66" />
       <File FileName="Assets\Packages\Laby\TresorFin.js" Line="1" Column="1" />
-      <File FileName="Assets\Audio\Chine\PasNeige.js" Line="1" Column="1" />
+      <File FileName="Assets\Audio\Chine\PasNeige.js" Line="12" Column="42" />
       <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
-      <File FileName="Assets\Audio\Grotte\PasSolDur.js" Line="11" Column="7" />
+      <File FileName="Assets\Audio\Grotte\PasSolDur.js" Line="12" Column="42" />
+      <File FileName="Assets\Audio\Angleterre\PasBois.js" Line="8" Column="126" />
+      <File FileName="Assets\DesertFortressPack\Scripts\open_door.js" Line="54" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -9,6 +9,7 @@ if (( Input.GetButtonDown( "Horizontal" ) || Input.GetButtonDown( "Vertical" ) )
 {
     audio.clip = snow;
     audio.volume = 0.1f;
+    audio.pitch = Random.Range(0.9, 1.1);
  	audio.Play();
 }
 
