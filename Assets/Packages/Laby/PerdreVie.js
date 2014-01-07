@@ -13,7 +13,7 @@ function OnTriggerEnter (other : Collider)
 		charMotor.enabled = true;
 		monde = GameObject.Find("World");
 		monde.GetComponent(Vie).PerdreVie();
-		if(Application.loadedLevel == 12)
+		if(Application.loadedLevel == 10)
 		{
 			other.transform.position = Vector3(17,3,88);
 		}

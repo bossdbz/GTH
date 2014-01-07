@@ -181,6 +181,14 @@ function Awake () {
 }
 
 private function UpdateFunction () {
+
+	//jump sound
+	if(Input.GetKey("space")){
+			if(audio)
+				audio.Play();
+	}
+
+
 	// We copy the actual velocity into a temporary variable that we can manipulate.
 	var velocity : Vector3 = movement.velocity;
 	
@@ -574,6 +582,8 @@ function MaxSpeedInDirection (desiredMovementDirection : Vector3) : float {
 		return length;
 	}
 }
+
+
 
 function SetVelocity (velocity : Vector3) {
 	grounded = false;
