@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Audio\Chine\PasNeige.js" />
+     <Compile Include="Assets\Audio\Grotte\PasSolDur.js" />
      <Compile Include="Assets\DesertFortressPack\Scripts\open_door.js" />
      <Compile Include="Assets\Packages\Angleterre\ChoixNiveau.js" />
      <Compile Include="Assets\Packages\Angleterre\Furniture Pack 1 Free\Scripts\MouseOrbitZoom.js" />

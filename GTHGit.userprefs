@@ -7,12 +7,13 @@
       <File FileName="Assets\Packages\Laby\Temps.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\ChoixNiveau.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Pieces.js" Line="1" Column="1" />
-      <File FileName="Assets\Packages\Laby\Addpieces.js" Line="1" Column="1" />
+      <File FileName="Assets\Packages\Laby\Addpieces.js" Line="4" Column="27" />
       <File FileName="Assets\Packages\Laby\Vie.js" Line="1" Column="1" />
-      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="16" Column="35" />
+      <File FileName="Assets\Packages\Laby\PerdreVie.js" Line="11" Column="3" />
       <File FileName="Assets\Packages\Laby\TresorFin.js" Line="1" Column="1" />
       <File FileName="Assets\Audio\Chine\PasNeige.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
+      <File FileName="Assets\Audio\Grotte\PasSolDur.js" Line="11" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
