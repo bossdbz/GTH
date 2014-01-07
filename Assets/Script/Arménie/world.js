@@ -27,7 +27,7 @@ function AddTresorBonus () {
 
 function Awake(){
 	//nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
-<<<<<<< HEAD
+//<<<<<<< HEAD
 //<<<<<<< HEAD
 	sceneName = Application.loadedLevel; 
 	
@@ -45,7 +45,11 @@ function Awake(){
 //>>>>>>> 56179bc8e719da66e25bd651f85405aa0150162a
 //>>>>>>> 8681734b956a5a0e3a125e32d8c6a32837e94451
 			textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
-=======
+//<<<<<<< HEAD
+
+//=======
+//=======
+//>>>>>>> 0ee19f684c47ce2f361259769b7272b710c1ca51
 
 	sceneName = Application.loadedLevel; 
 	
@@ -53,13 +57,13 @@ function Awake(){
 	
 
 	textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
->>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
+//>>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
 
 			textPiece = GameObject.Find("InterfaceJeux/TextPiece").GetComponent(GUIText);
 	
 	
 	
-<<<<<<< HEAD
+//<<<<<<< HEAD
 //<<<<<<< HEAD
 	
 	
@@ -73,7 +77,7 @@ function Awake(){
 //>>>>>>> 8681734b956a5a0e3a125e32d8c6a32837e94451
 					textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
 				}
-=======
+//=======
 
 	
 	
@@ -87,13 +91,13 @@ function Awake(){
 
 	textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
 	}
->>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
+//>>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
 	
 				textVie = GameObject.Find("InterfaceJeux/TextVie").GetComponent(GUIText);
 	
 	
 	
-<<<<<<< HEAD
+//<<<<<<< HEAD
 				OnGUI();
 //<<<<<<< HEAD
 
@@ -106,15 +110,22 @@ function Awake(){
 		}
 //>>>>>>> 56179bc8e719da66e25bd651f85405aa0150162a
 	}
+//<<<<<<< HEAD
+
+//=======
 }
-=======
+//>>>>>>> 0ee19f684c47ce2f361259769b7272b710c1ca51
+//=======
 	OnGUI();
 
-}
 
 
 
->>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
+//<<<<<<< HEAD
+//=======
+
+//>>>>>>> 0ee19f684c47ce2f361259769b7272b710c1ca51
+//>>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
 
 function OnGUI() {
 	
