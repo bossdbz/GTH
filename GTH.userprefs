@@ -1,56 +1,8 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Bonus Syrie\Chronometre2.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\world.js">
     <Files>
-      <File FileName="Assets\Script\Arménie\world.js" Line="46" Column="2" />
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Bonus Syrie\Chronomètre.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Bonus Syrie\Chronometre2.js" Line="84" Column="3" />
-=======
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\COPIE GIT\GTH\Assets\Script\Bonus Syrie\Chronomètre.js">
-    <Files>
-      <File FileName="..\..\..\COPIE GIT\GTH\Assets\Script\Arménie\world.js" Line="46" Column="2" />
-      <File FileName="..\..\..\COPIE GIT\GTH\Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
-      <File FileName="..\..\..\COPIE GIT\GTH\Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
-      <File FileName="..\..\..\COPIE GIT\GTH\Assets\Script\Bonus Syrie\Chronomètre.js" Line="1" Column="1" />
-=======
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\Tresor.js">
-    <Files>
-      <File FileName="Assets\Script\Arménie\CountTresor.js" Line="10" Column="2" />
-      <File FileName="Assets\Script\Arménie\world.js" Line="79" Column="2" />
-      <File FileName="Assets\Script\Arménie\Bonus.js" Line="13" Column="2" />
-      <File FileName="Assets\Script\Arménie\AddPiece.js" Line="16" Column="21" />
-      <File FileName="Assets\Script\Arménie\Parcour.js" Line="69" Column="50" />
-      <File FileName="Assets\Script\Arménie\Tresor.js" Line="3" Column="32" />
-      <File FileName="Assets\Script\Arménie\StopAnimationBonhomme.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\ArménieBonus\Syrie.js" Line="12" Column="30" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="26" Column="39" />
-      <File FileName="Assets\Packages\Laby\Temps.js" Line="37" Column="49" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Iran\objets.js">
-    <Files>
-      <File FileName="GTH.sln" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\world.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\obstacles.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Bonus Syrie\AddTresorBonus.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Iran\gameOver.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Iran\objets.js" Line="11" Column="25" />
-      <File FileName="Assets\Script\Amazonie\Labyrinthe.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Menu\menuFin.js" Line="1" Column="1" />
->>>>>>> 791cee20b10d547eca66a48c38f8145ed80efefc
->>>>>>> 48777aa49c544b6fe75f745515ff169baaea31b4
->>>>>>> 56179bc8e719da66e25bd651f85405aa0150162a
+      <File FileName="Assets\Script\Arménie\world.js" Line="32" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
