@@ -1,0 +1,117 @@
+-target:library
+-i:UnityEngine
+-i:System.Collections
+-base:UnityEngine.MonoBehaviour
+-nowarn:BCW0016
+-nowarn:BCW0003
+-method:Main
+-out:Temp/Assembly-UnityScript.dll
+-x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-debug
+-define:UNITY_STANDALONE_WIN
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_0
+-define:UNITY_4_3
+-define:UNITY_64
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-i:UnityEditor
+Assets/Audio/Chine/PasNeige.js
+Assets/DesertFortressPack/Scripts/open_door.js
+Assets/Packages/Angleterre/ChoixNiveau.js
+"Assets/Packages/Angleterre/Furniture Pack 1 Free/Scripts/MouseOrbitZoom.js"
+Assets/Packages/Angleterre/MusiqueAmbiance.js
+Assets/Packages/Angleterre/TestTableau1.js
+Assets/Packages/Laby/Addpieces.js
+Assets/Packages/Laby/PerdreVie.js
+Assets/Packages/Laby/Pieces.js
+Assets/Packages/Laby/Temps.js
+Assets/Packages/Laby/TresorFin.js
+Assets/Packages/Laby/Vie.js
+Assets/Radar/EnemyAI.js
+Assets/Radar/Radar.js
+Assets/RainFX/Resources/Scripts/MouseOrbit.js
+Assets/Script/Amazonie/GlobalsScenes.js
+Assets/Script/Amazonie/Labyrinthe.js
+Assets/Script/Amazonie/cheat.js
+Assets/Script/Amazonie/checkpoint.js
+Assets/Script/Amazonie/infoSerious.js
+Assets/Script/Amazonie/intro.js
+Assets/Script/Amazonie/mort.js
+Assets/Script/Amazonie/objetETG1.js
+Assets/Script/Amazonie/objetInfo.js
+Assets/Script/Amazonie/objetRDC.js
+Assets/Script/Amazonie/porteETG1.js
+Assets/Script/Amazonie/porteLaby.js
+Assets/Script/Amazonie/teleportation.js
+"Assets/Script/Arménie/AddPiece.js"
+"Assets/Script/Arménie/AddTresor.js"
+"Assets/Script/Arménie/Bonus.js"
+"Assets/Script/Arménie/Chrono.js"
+"Assets/Script/Arménie/CountTresor.js"
+"Assets/Script/Arménie/GameVariable.js"
+"Assets/Script/Arménie/Meurt.js"
+"Assets/Script/Arménie/Parcour.js"
+"Assets/Script/Arménie/ParcourPointSuivant.js"
+"Assets/Script/Arménie/Question.js"
+"Assets/Script/Arménie/Quiz.js"
+"Assets/Script/Arménie/RéponseQuestion.js"
+"Assets/Script/Arménie/StopAnimationBonhomme.js"
+"Assets/Script/Arménie/Tresor.js"
+"Assets/Script/Arménie/world.js"
+"Assets/Script/ArménieBonus/Syrie.js"
+"Assets/Script/ArménieBonus/ok.js"
+"Assets/Script/Bonus Syrie/AddTresorBonus.js"
+"Assets/Script/Bonus Syrie/Chronometre2.js"
+"Assets/Script/Bonus Syrie/Chronomètre.js"
+"Assets/Script/Bonus Syrie/Transition.js"
+"Assets/Script/Bonus Syrie/Transition2.js"
+Assets/Script/Iran/gameOver.js
+Assets/Script/Iran/objets.js
+Assets/Script/Menu/MenuGameOverBonusAmazonie.js
+Assets/Script/Menu/audio.js
+Assets/Script/Menu/clickBouton.js
+Assets/Script/Menu/menuFin.js
+Assets/Script/Menu/menuInstruction.js
+Assets/Script/Menu/menuPause.js
+Assets/Script/Menu/menuScripts.js
+"Assets/Script/bonus azteque/Menu Info 3.js"
+"Assets/Script/bonus azteque/avionbehaviour.js"
+"Assets/Script/bonus azteque/caisse.js"
+"Assets/Script/bonus azteque/end.js"
+"Assets/Script/bonus azteque/explosion.js"
+"Assets/Script/bonus azteque/life.js"
+"Assets/Script/bonus azteque/menuInfo2.js"
+"Assets/Script/bonus azteque/missile.js"
+"Assets/Script/bonus azteque/obstacles.js"
+"Assets/Script/bonus azteque/temps.js"

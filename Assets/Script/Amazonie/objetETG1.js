@@ -1,8 +1,36 @@
 ﻿#pragma strict
 
+var PauseSerious : boolean = false;
+var menuSeriousObjet : GUITexture;
+var nomObjet : GUIText;
+var Reprendre : GUIText;
+var texteSerious: GUIText;
+var image6: GUITexture;
+var image7: GUITexture;
+var image8: GUITexture;
+var image9: GUITexture;
+var image10: GUITexture;
 
-
-
+public function afficheSeriousObjet(s)
+{
+	PauseSerious = true;
+	menuSeriousObjet.enabled = true;
+	nomObjet.enabled = true;
+	Reprendre.enabled = true;
+	Time.timeScale = 0.0;
+	texteSerious.enabled= true;
+	
+	if(s=="b")
+		image6.enabled= true;
+	if(s=="r")
+		image7.enabled= true;
+	if(s=="j")
+		image8.enabled= true;
+	if(s=="v")
+		image9.enabled= true;
+	if(s=="blanc")
+		image10.enabled= true;
+}
 
 public function getEtag1win()
 
@@ -17,23 +45,42 @@ function Update () {
 }
 
 function AddBleu () {
-	GameVariables.objetbleu1=1;
+	GameVariables.objetbleu1=1;	
+	
+	nomObjet.text= "Le Couteau azteque";
+	texteSerious.text= "Les aztèques arrivent au XIIIe siècle dans la région du Mexique. Ils fondent leur capitale Tenochtitlán, aujourd'hui Mexico.\n La religion aztèque exige de nombreux sacrifices humains.Les cérémonies ont lieu devant le temple, sur la place principale de la ville. \nOn sacrifie des prisonniers mais aussi des Aztèques qui veulent ainsi se rapprocher des dieux. Voici un couteau de sacrifice. C'est un objet d'une grande valeur.\nLa poignée du couteau représente un Guerrier-aigle (distinction honorifique dans l'armée aztèque).";
+	afficheSeriousObjet("b");
+	// afficher le menu
+	
 }
 
 function AddJaune () {
 	GameVariables.objetjaune1=1;
+	nomObjet.text= 'Matlactli Atl " Le Premier Soleil " ';
+	texteSerious.text= "IL dure 4 008 années, a cette époque vivaient des géants et Il fut détruit par l’eau.\nOn lui a donné le nom d’Apachiohualiztli (inondation, déluge). Les hommes furent transformés en poissons.\nUn seul couple survécut et repeupla la Terre. D'autres disent que sept couples se cachèrent dans une grotte en attendant la fin du déluge.\nIls repeuplèrent la Terre et furent adorés comme des Dieux par leurs nations";
+	afficheSeriousObjet("j");
 }
 
 function AddRouge () {
 	GameVariables.objetrouge1=1;
+	nomObjet.text= 'Ehecoatl " Le Second Soleil " ';
+	texteSerious.text="Il dure 4 010 années et fut détruit par Ehecoatl (le Serpent du Vent), les hommes furent changés en singes.\nUn homme et une femme furent sauvés de la destruction…";
+	afficheSeriousObjet("r");
 }
 
 function AddVert () {
 	GameVariables.objetvert1=1;
+	nomObjet.text= 'Tleyquiyahuillo " Le Troisième Soleil " ';
+	texteSerious.text= "Il dure 4 081 années. Il fut détruit par le feu.\nLes hommes qui descendaient du couple rescapé du second soleil, mangeaient un fruit appelé tzincoacoc";
+	afficheSeriousObjet("v");
 }
 
 function AddBlanc () {
 	GameVariables.objetblanc1=1;
+	nomObjet.text= 'Tzontlilic " Le Quatrième Soleil " ';
+	texteSerious.text= "Il dure 5 026 années. Les hommes moururent de faim après un déluge de sang et de feu…";
+
+	afficheSeriousObjet("blanc");
 }
 
 

@@ -10,6 +10,11 @@ var image2: GUITexture;
 var image3: GUITexture;
 var image4: GUITexture;
 var image5: GUITexture;
+var image6: GUITexture;
+var image7: GUITexture;
+var image8: GUITexture;
+var image9: GUITexture;
+var image10: GUITexture;
 
 function Start () {
 
@@ -38,6 +43,11 @@ function OnMouseDown()
 	image3.enabled= false;
 	image4.enabled= false;
 	image5.enabled= false;
+	image6.enabled= false;
+	image7.enabled= false;
+	image8.enabled= false;
+	image9.enabled= false;
+	image10.enabled= false;
   }
 	
 }
