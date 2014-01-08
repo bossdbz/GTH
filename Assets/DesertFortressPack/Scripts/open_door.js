@@ -16,12 +16,15 @@ var DoorOpenAngle = 80.0;
 var DoorCloseAngle = 0.0;
 var open : boolean;
 var enter : boolean;
+var ouvrir : AudioClip;
+var fermer : AudioClip;
 
 //Main function
 function Update ()
 {
 	if(open == true)
 	{
+		
 		var target = Quaternion.Euler (transform.localRotation.x, DoorOpenAngle, transform.localRotation.z);
 		// Dampen towards the target rotation
 		transform.localRotation = Quaternion.Slerp(transform.localRotation, target,
@@ -30,6 +33,7 @@ function Update ()
 
 	if(open == false)
 	{
+		
 		var target1 = Quaternion.Euler (transform.localRotation.x, DoorCloseAngle, transform.localRotation.z);
 		// Dampen towards the target rotation
 		transform.localRotation = Quaternion.Slerp(transform.localRotation, target1,
@@ -40,6 +44,14 @@ function Update ()
 	{
 		if(Input.GetKeyDown("f"))
 		{
+			if(open == false)
+			{
+				AudioSource.PlayClipAtPoint(ouvrir, transform.position);
+			}
+			else
+			{
+				AudioSource.PlayClipAtPoint(fermer, transform.position);
+			}
 			open = !open;
 		}
 	}
