@@ -4,13 +4,17 @@ public var textfield2:GUIText;
 public var textfield3:GUIText;
 public var textfield4:GUIText;
 
+var debut = 0;
+var fin = 13700 ;
+var avancement = debut;
+
 public static class AvionVariables 
 { 
 	//le rdc
 	public var distance = 0;
 	public var vie = 5;
 	public var nbDetruits = 0;
-	public var munitions = 200; 
+	public var munitions = 100; 
 }
 
 function Start () {
@@ -18,6 +22,8 @@ function Start () {
 }
 
 function Update () {
+
+	
 	distance();
 	vies();
 	score();
@@ -26,10 +32,13 @@ function Update () {
 
 function distance()
 {
+	var avion = GameObject.Find("avion");	
+	avancement=avion.transform.position.x;
+	
 	yield WaitForSeconds(1); 
 	AvionVariables.distance = AvionVariables.distance + 1;
 	textfield = GameObject.Find("distance").GetComponent(GUIText); 
-	textfield.text = "Distance : " + AvionVariables.distance+ "m ";
+	textfield.text = "Effectué : " + avancement/137+" %";
 	
 }
 

@@ -21,7 +21,7 @@ function Update () {
 		if (this.transform.position.x - avion.transform.position.x < -10)
 	 	{
 	 		var i = this.transform.position.x - avion.transform.position.x;
-	 		Debug.Log(" comparR : "+ i );
+	 		//Debug.Log(" comparR : "+ i );
 	 		Destroy(this);
 	 		Destroy(gameObject);
 	 	}
