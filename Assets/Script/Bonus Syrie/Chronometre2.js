@@ -19,6 +19,7 @@ private var FinChrono : GUIText;
 private var textfield : String;
 private var gagner : boolean;
 
+private var son : AudioClip;
 
 
 
@@ -28,6 +29,8 @@ private var gagner : boolean;
 function Awake(){
 	chronoGT = GameObject.Find("Chrono").GetComponent(GUIText);
 	//FinChrono = GameObject.Find("GameOver/FinTemps").GetComponent(GUIText);
+	//son = GameObject.Find("Chrono").GetComponent(AudioSource);
+	//son.Play();
 }
 
 
@@ -39,6 +42,9 @@ function OnTriggerEnter( other : Collider ) {
 		nomParcour = transform.gameObject.name;
 		//tresorCur = GameObject.Find(nomParcour+ "/Tresor" + numParcour + "-" + i);
 		declencher = true;
+		//audio.Play();
+		//audio.clip = son ;
+		audio.Play();
 		
 	
 	}
