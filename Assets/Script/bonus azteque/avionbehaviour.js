@@ -48,7 +48,7 @@ function Update () {
 	
 	var avionC = GameObject.Find("avion component");
 	
-	Debug.Log(" pos ici : "+ avion.transform.rotation.x);
+	
 		
 	var gauche = GameObject.Find("zoneg");
 	var droite = GameObject.Find("zoned");
@@ -117,7 +117,7 @@ function Update () {
 }
 
 function OnTriggerEnter( other : Collider ) {
-	Debug.Log("WTF");
+	
 
 }
 
