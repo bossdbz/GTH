@@ -182,19 +182,34 @@ function Update ()
 	
 	//afficher dans le menu
 	var sonJoue ="";
-	if (son1.volume!=0.0) sonJoue += "Action drums B - (vie <= 3, avancement > 60% ) Volume  "+ son1.volume * 100 + " %  /";
-	if (son2.volume!=0.0) sonJoue += "ArpBass 1 et  Emphaser 1 - ( avancement < 20% ) Volume "+ son2.volume * 100 + " %  /";
-	if (son3.volume!=0.0) sonJoue += "BrusqueViolon - ( vie <=2, avancement 80% ) Volume "+ son3.volume * 100 + " %  /";
-	if (son4.volume!=0.0) sonJoue += "Cello_Stacc 1 - ( assez munitions ) Volume  "+ son4.volume * 100 + " %  /";
-	if (son5.volume!=0.0) sonJoue += "Choir 1 - Volume (vie <= 3 et avancement < 40% ) "+ son5.volume * 100 + " %  /";
-	if (son6.volume!=0.0) sonJoue += "Combative Choir 1 - ( avancement > 70% ) Volume  "+ son6.volume * 100 + " %  /";
-	if (son7.volume!=0.0) sonJoue += "Fairytails Clarinet 1 ( 85% < avancement < 95 %) - Volume "+ son7.volume * 100 + " %  /";
-	if (son8.volume!=0.0) sonJoue += "Feisty Drums B - ( 20% < avancement < 60% ) Volume "+ son8.volume * 100 + " %  /";
-	if (son9.volume!=0.0) sonJoue += "Flute_Stacc 1 - ( avancement > 40%, vie > 3 ) Volume "+ son9.volume * 100 + " %  /";
-	if (son10.volume!=0.0) sonJoue += "Gloomy Strings 1 - ( 75% < avancement < 85% ) Volume "+ son10.volume * 100 + " %  /";
-	if (son11.volume!=0.0) sonJoue += "Meek Glock 1 - ( 90% < avancement < 100% ) Volume "+ son11.volume * 100 + " %  /";
-	if (son12.volume!=0.0) sonJoue += "StringEns_Stacc 1 - ( muntions épuisées ) Volume  "+ son12.volume * 100 + " %  /";
-	if (son13.volume!=0.0) sonJoue += "ViolinUpdn - ( 60% < avancement < 80% ) Volume "+ son13.volume * 100 + " %  /";	
+	if (son1.volume!=0.0) sonJoue += "Action drums B - (vie <= 3, avancement > 60% ) Volume  "+ son1.volume * 100 + " %  \n";
+	if (son2.volume!=0.0) sonJoue += "ArpBass 1 et  Emphaser 1 - ( avancement < 20% ) Volume "+ son2.volume * 100 + " %  \n";
+	if (son3.volume!=0.0) sonJoue += "BrusqueViolon - ( vie <=2, avancement 80% ) Volume "+ son3.volume * 100 + " %  \n";
+	if (son4.volume!=0.0) sonJoue += "Cello_Stacc 1 - ( assez munitions ) Volume  "+ son4.volume * 100 + " %  \n";
+	if (son5.volume!=0.0) sonJoue += "Choir 1 - Volume (vie <= 3 et avancement < 40% ) "+ son5.volume * 100 + " %  \n";
+	if (son6.volume!=0.0) sonJoue += "Combative Choir 1 - ( avancement > 70% ) Volume  "+ son6.volume * 100 + " %  \n";
+	if (son7.volume!=0.0) sonJoue += "Fairytails Clarinet 1 ( 85% < avancement < 95 %) - Volume "+ son7.volume * 100 + " %  \n";
+	if (son8.volume!=0.0) sonJoue += "Feisty Drums B - ( 20% < avancement < 60% ) Volume "+ son8.volume * 100 + " %  \n";
+	if (son9.volume!=0.0) sonJoue += "Flute_Stacc 1 - ( avancement > 40%, vie > 3 ) Volume "+ son9.volume * 100 + " %  \n";
+	if (son10.volume!=0.0) sonJoue += "Gloomy Strings 1 - ( 75% < avancement < 85% ) Volume "+ son10.volume * 100 + " %  \n";
+	if (son11.volume!=0.0) sonJoue += "Meek Glock 1 - ( 90% < avancement < 100% ) Volume "+ son11.volume * 100 + " %  \n";
+	if (son12.volume!=0.0) sonJoue += "StringEns_Stacc 1 - ( muntions épuisées ) Volume  "+ son12.volume * 100 + " %  \n";
+	if (son13.volume!=0.0) sonJoue += "ViolinUpdn - ( 60% < avancement < 80% ) Volume "+ son13.volume * 100 + " %  \n";	
+	
+	/*sonJoue += "Action drums B - (vie <= 3, avancement > 60% ) Volume  "+ son1.volume * 100 + " %  \n";
+	sonJoue += "ArpBass 1 et  Emphaser 1 - ( avancement < 20% ) Volume "+ son2.volume * 100 + " %  \n";
+	sonJoue += "BrusqueViolon - ( vie <=2, avancement 80% ) Volume "+ son3.volume * 100 + " %  \n";
+	sonJoue += "Cello_Stacc 1 - ( assez munitions ) Volume  "+ son4.volume * 100 + " %  \n";
+	sonJoue += "Choir 1 - Volume (vie <= 3 et avancement < 40% ) "+ son5.volume * 100 + " %  \n";
+	sonJoue += "Combative Choir 1 - ( avancement > 70% ) Volume  "+ son6.volume * 100 + " %  \n";
+	sonJoue += "Fairytails Clarinet 1 ( 85% < avancement < 95 %) - Volume "+ son7.volume * 100 + " %  \n";
+	sonJoue += "Feisty Drums B - ( 20% < avancement < 60% ) Volume "+ son8.volume * 100 + " %  \n";
+	sonJoue += "Flute_Stacc 1 - ( avancement > 40%, vie > 3 ) Volume "+ son9.volume * 100 + " %  \n";
+	sonJoue += "Gloomy Strings 1 - ( 75% < avancement < 85% ) Volume "+ son10.volume * 100 + " %  \n";
+	sonJoue += "Meek Glock 1 - ( 90% < avancement < 100% ) Volume "+ son11.volume * 100 + " %  \n";
+	sonJoue += "StringEns_Stacc 1 - ( muntions épuisées ) Volume  "+ son12.volume * 100 + " %  \n";
+	sonJoue += "ViolinUpdn - ( 60% < avancement < 80% ) Volume "+ son13.volume * 100 + " %  ";*/
+	
 	Debug.Log(sonJoue);
 	infoSounds.text =sonJoue;
 	
@@ -226,8 +241,8 @@ function TransitionMunitions(destination:float , sonOrigine: AudioSource)
 {
 		//calcul de la différence
 		var volumeActuel : float = sonOrigine.volume ;
-		var volumeAjouteePlus = volumeActuel + 0.1;
-		var volumeAjouteeMoins = volumeActuel - 0.1;
+		var volumeAjouteePlus = volumeActuel + 0.05;
+		var volumeAjouteeMoins = volumeActuel - 0.05;
 		
 		if( volumeActuel > destination )
 		{

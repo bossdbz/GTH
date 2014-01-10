@@ -25,6 +25,6 @@ function Update () {
 
 function OnTriggerEnter( other : Collider ) {
 
-	Destroy(gameObject);
+	//Destroy(gameObject);
 
 }

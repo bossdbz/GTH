@@ -18,7 +18,7 @@ public function afficheSeriousObjet(s)
 	nomObjet.enabled = true;
 	Reprendre.enabled = true;
 	Time.timeScale = 0.0;
-	texteSerious.enabled= true;
+	texteSerious.enabled= true;	
 	
 	if(s=="b")
 		image.enabled= true;
@@ -91,6 +91,10 @@ function OnTriggerEnter( other : Collider ) {
 	var textfield:GUIText = GameObject.Find("TxtObjets").GetComponent(GUIText);
 	var textfield2:GUIText = GameObject.Find("TxtTimer").GetComponent(GUIText); 
 
+	var son:GameObject = GameObject.Find("sonObj");
+	son.audio.Play();
+	
+	
 	if(other.gameObject.CompareTag("Player")){
 		Destroy(gameObject);
 		
@@ -132,13 +136,17 @@ function OnTriggerEnter( other : Collider ) {
 		}
 		
 		textfield.text = "Objets trouvé : "+ GameVariables.nombreObjTrouveRdc+" /5 ";
-		
+		var sonWin: GameObject = GameObject.Find("sonWin");
 		
 		if((GameVariables.objetbleu) && (GameVariables.objetjaune) && (GameVariables.objetrouge) && (GameVariables.objetvert) && (GameVariables.objetblanc))
 		{
 			textfield2.text = ""; 
 			//textfield.text = "bravo !"; 
 			GameVariables.RDCwinLvl1=1;
+			
+			//jouer son
+			
+			sonWin.audio.Play();
 		}
 		
 		

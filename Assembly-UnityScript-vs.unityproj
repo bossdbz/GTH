@@ -67,6 +67,7 @@
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
      <Compile Include="Assets\Script\Amazonie\cheat.js" />
      <Compile Include="Assets\Script\Amazonie\checkpoint.js" />
+     <Compile Include="Assets\Script\Amazonie\enigme1Son.js" />
      <Compile Include="Assets\Script\Amazonie\infoSerious.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
      <Compile Include="Assets\Script\Amazonie\mort.js" />

@@ -32,13 +32,14 @@ function OnTriggerEnter( other : Collider ) {
 	AvionVariables.nbDetruits = AvionVariables.nbDetruits + 100;
 	var expl;
 	expl = Instantiate(explosion,this.transform.position, this.transform.rotation) ;
-	Destroy(gameObject);
-	Destroy(this);
+	this.audio.Play();
 	if( other.name == "avion" ) 
 	{
 		AvionVariables.vie = AvionVariables.vie - 1;
+		
 	}
-	
+	Destroy(gameObject);
+	Destroy(this);
 	//Destroy(this.gameObject);
 
 }

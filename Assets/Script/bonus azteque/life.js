@@ -26,8 +26,9 @@ function OnTriggerEnter( other : Collider ) {
 	AvionVariables.nbDetruits = AvionVariables.nbDetruits + 25;
 		if(AvionVariables.vie < 5 )
 		AvionVariables.vie = AvionVariables.vie + 1;
+		this.audio.Play();
 		Destroy(gameObject);
-	
+		
 	
 
 }

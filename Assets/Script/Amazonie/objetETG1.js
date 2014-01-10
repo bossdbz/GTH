@@ -89,7 +89,10 @@ function OnTriggerEnter( other : Collider ) {
 	var GlobalsScenes : GameObject;
 	var textfield:GUIText = GameObject.Find("TxtObjets").GetComponent(GUIText);
 	var textfield2:GUIText = GameObject.Find("TxtTimer").GetComponent(GUIText); 
-
+	
+	var son:GameObject = GameObject.Find("sonObj");
+	son.audio.Play();
+	
 	if(other.gameObject.CompareTag("Player")){
 		Destroy(gameObject);
 		
@@ -130,16 +133,19 @@ function OnTriggerEnter( other : Collider ) {
 			GameVariables.nombreObjTrouveETG1++;
 		}
 		
+		
+		
 		//si on a bien fini le rdc
 		if(( GameVariables.CurrentPositionCheck!=GameVariables.positionCheck1) || ( GameVariables.CurrentPositionCheck!=GameVariables.positionCheck2))
 			textfield.text = "Objets trouvé : "+ GameVariables.nombreObjTrouveETG1+" /5 ";
 		
-		
+		var sonWin: GameObject = GameObject.Find("sonWin");
 		if((GameVariables.objetbleu1) && (GameVariables.objetjaune1) && (GameVariables.objetrouge1) && (GameVariables.objetvert1) && (GameVariables.objetblanc1))
 		{
 			textfield2.text = ""; 
 			textfield.text = "bravo ! l'etage supérieur est ouvert"; 
 			GameVariables.Etag1win=1;
+			sonWin.audio.Play();
 		}
 		
 		

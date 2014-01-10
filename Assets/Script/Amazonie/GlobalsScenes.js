@@ -9,7 +9,7 @@ function Start ()
 public static class GameVariables 
 { 
 	//le rdc
-	public var objetbleu = 0;
+	public var objetbleu = 0;                                                                                                                         
 	public var objetjaune = 0; 
 	public var objetrouge = 0; 
 	public var objetvert = 0;
