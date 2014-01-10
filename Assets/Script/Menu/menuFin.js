@@ -16,7 +16,7 @@ function Update () {
 	if(debut==1)
 	{	
 		Time.timeScale = 0.0;
-	score1.text=""+AvionVariables.nbDetruits;
+		score1.text=""+AvionVariables.nbDetruits+" points ";
 	
 		score.enabled = true;
 		go.enabled = true;

@@ -30,11 +30,10 @@ function OnTriggerEnter( other : Collider ) {
 	//ecposion
 	var expl;
 	expl = Instantiate(explosionCaisse,this.transform.position, this.transform.rotation) ;
-	Destroy(gameObject);
+		
+	this.audio.Play();
+	AvionVariables.munitions = AvionVariables.munitions + 50;
 	
-	
-	
-	AvionVariables.munitions = AvionVariables.munitions + 100;
 	Destroy(gameObject);
 	Destroy(this);
 }

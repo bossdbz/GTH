@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Audio\Angleterre\PasBois.js" />
+     <Compile Include="Assets\Audio\Chine\PasNeige.js" />
+     <Compile Include="Assets\Audio\Grotte\PasSolDur.js" />
      <Compile Include="Assets\DesertFortressPack\Scripts\open_door.js" />
      <Compile Include="Assets\Packages\Angleterre\ChoixNiveau.js" />
      <Compile Include="Assets\Packages\Angleterre\Furniture Pack 1 Free\Scripts\MouseOrbitZoom.js" />
@@ -64,10 +67,12 @@
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
      <Compile Include="Assets\Script\Amazonie\cheat.js" />
      <Compile Include="Assets\Script\Amazonie\checkpoint.js" />
+     <Compile Include="Assets\Script\Amazonie\enigme1Son.js" />
      <Compile Include="Assets\Script\Amazonie\infoSerious.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
      <Compile Include="Assets\Script\Amazonie\mort.js" />
      <Compile Include="Assets\Script\Amazonie\objetETG1.js" />
+     <Compile Include="Assets\Script\Amazonie\objetInfo.js" />
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
      <Compile Include="Assets\Script\Amazonie\porteETG1.js" />
      <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
@@ -105,6 +110,7 @@
      <Compile Include="Assets\Script\Menu\menuPause.js" />
      <Compile Include="Assets\Script\Menu\menuScripts.js" />
      <Compile Include="Assets\Script\bonus azteque\Menu Info 3.js" />
+     <Compile Include="Assets\Script\bonus azteque\audioDynamique.js" />
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
