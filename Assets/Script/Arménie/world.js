@@ -36,31 +36,28 @@ function Awake(){
 
 
 	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
-		if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
+		
 
 			textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
-			sceneName = Application.loadedLevel;
-			textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
+			// sceneName = Application.loadedLevel;
 			textPiece = GameObject.Find("InterfaceJeux/TextPiece").GetComponent(GUIText);	
-			if (sceneName == 7){
-				if (sceneName == "Assets/Scene/Bonus Syrie.unity"){
-					textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
-				}
-			if (sceneName == 7){
-
-				textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
-			}
-				textVie = GameObject.Find("InterfaceJeux/TextVie").GetComponent(GUIText);
-
-				OnGUI();
-			}
-		}
+		
+	
 	}
 
-	OnGUI();
+	
+	if (sceneName == "Assets/Scene/Bonus Syrie.unity"){
+					textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
+				}
+				
+	textVie = GameObject.Find("InterfaceJeux/TextVie").GetComponent(GUIText);
 
-
+				OnGUI();
 }
+				
+
+
+
 
 function OnGUI() {
 	
