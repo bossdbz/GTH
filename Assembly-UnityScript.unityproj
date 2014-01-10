@@ -19,11 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-<<<<<<< HEAD
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;UNITY_64;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
-=======
 	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;UNITY_64;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
->>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -43,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +74,7 @@
      <Compile Include="Assets\Script\Amazonie\teleportation.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
+     <Compile Include="Assets\Script\Arménie\BeepRadar.js" />
      <Compile Include="Assets\Script\Arménie\Bonus.js" />
      <Compile Include="Assets\Script\Arménie\Chrono.js" />
      <Compile Include="Assets\Script\Arménie\CountTresor.js" />
@@ -93,45 +90,6 @@
      <Compile Include="Assets\Script\Arménie\world.js" />
      <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
      <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-<<<<<<< HEAD
-=======
-=======
-     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
-     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
-     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
-     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-=======
-<<<<<<< HEAD
-     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
-=======
-<<<<<<< HEAD
-=======
-     <Compile Include="Assets\Script\ArménieBonus\Syrie.js" />
-     <Compile Include="Assets\Script\ArménieBonus\ok.js" />
->>>>>>> 48777aa49c544b6fe75f745515ff169baaea31b4
->>>>>>> 56179bc8e719da66e25bd651f85405aa0150162a
->>>>>>> 8681734b956a5a0e3a125e32d8c6a32837e94451
->>>>>>> 2cf5f7af11f510de4dfdb015e0ce6afedc95d9c8
->>>>>>> bc2bf5858e025df64440b722483f21c77ddaca78
->>>>>>> 79dffbfdac07521459cc06a9443b0d5dd57759d3
->>>>>>> e8e070a81615283c1f143b7d170c7903715c59d8
->>>>>>> 7159e9daa43100590a907b9808e7ea31c4c30ce5
->>>>>>> 6b943fcf899ffd954b5c757f5592045b32b90e66
->>>>>>> a5f3b9ce5b5b7d87c82c79270fc5dfeafee7e0c9
->>>>>>> a6df1bc2d059d10ef5f691c58f1788786be127b7
      <Compile Include="Assets\Script\Bonus Syrie\AddTresorBonus.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronometre2.js" />
      <Compile Include="Assets\Script\Bonus Syrie\Chronomètre.js" />

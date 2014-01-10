@@ -6,6 +6,7 @@ var player : GameObject;
 var distance : float;
 private var dist : float;
 
+
 function Start () {
 
 }

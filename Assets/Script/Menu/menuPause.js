@@ -5,11 +5,20 @@ var londres : GUIText;
 var menuPrincipale : GUIText;
 var reprendre : GUIText;
 
+private var sonMenu : GameObject;
+
 pauseGUI.enabled = false;
 pauseT.enabled = false;
 menuPrincipale.enabled = false;
 londres.enabled = false; 
 reprendre.enabled = false;
+
+
+function Awake(){
+	
+	sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture");
+
+}
 
 
 function Start(){
@@ -19,6 +28,7 @@ function Start(){
 function Update(){
 	if(Input.GetKeyUp(KeyCode.Escape)) 
 	{
+		sonMenu.GetComponent(AudioSource).Play();
 		if(pause==true){
 			pause = false;
 		}
