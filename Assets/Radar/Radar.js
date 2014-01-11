@@ -24,6 +24,18 @@ private var mapHeight : float;
 private var mapCenter : Vector2;
 var mapCenterCustom : Vector2;
 
+
+var beepNormal : GameObject;
+var beepRapide : GameObject;
+var bool : boolean;
+
+var seuil : int;
+
+function Awake(){
+	//beepNormal
+}
+
+
 function Start () {
 	setMapLocation();	
 }
@@ -63,7 +75,11 @@ function drawBlip(go,aTexture){
 	bY=bY*mapScale; // scales down the y-coordinate so that the plot stays within our radar
 	
 	if(dist<=mapWidth*.5/mapScale){ 
+		Debug.Log("dist : " + mapWidth*.5/mapScale);
 		// this is the diameter of our largest radar circle
+	   beepNormal.GetComponent(AudioSource).Play();
+	   beepNormal.GetComponent(AudioSource).loop = true;
+	   //yield WaitForSeconds (3);
 	   GUI.DrawTexture(Rect(mapCenter.x+bX,mapCenter.y+bY,4,4),aTexture);
  
 	}
@@ -122,4 +138,9 @@ function setMapLocation () {
 		mapCenter = mapCenterCustom;
 	}
 	
+	seuil = mapWidth*.5/mapScale;
 } 
+
+function getSeuil() : int{
+	return seuil;
+}

@@ -23,6 +23,8 @@ function OnTriggerEnter( other : Collider ) {
 		if( audio ){
 			audio.Play();
 		}
+		yield WaitForSeconds(1);
 		Destroy(gameObject);
+		
 	}
 }
