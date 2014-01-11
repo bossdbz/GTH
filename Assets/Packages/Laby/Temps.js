@@ -15,9 +15,10 @@ function Awake()
  // retrieve the GUIText Component and set the text 
  //if(Application.loadedLevel
  if(Application.loadedLevel != 11)
- { currentTime = 600; }
+ { currentTime = 360; }
  textTemps = GameObject.Find("Interface/TextTemps").GetComponent(GUIText);
  UpdateTimerText(); 
+ 
  
  // start the timer ticking 
  TimerTick(); 
