@@ -1,36 +1,76 @@
 ﻿#pragma strict
 
-var obj : GameObject;
+private var obj : GameObject[];
 var player : GameObject;
-var beep : GameObject;
-//private bool : boolean;
-//var world : GameObject;
-//var radar : Radar;
+var beepNormal : GameObject;
+var beepRapide : GameObject;
+
 private var map : int;
+private var playNormal : boolean;
+private var playRapide : boolean;
+private var isClose : boolean;
 
 function Awake(){
-	map = transform.parent.gameObject.GetComponent(Radar).seuil;
-	if( Vector3.Distance(obj.transform.position, player.transform.position) <= map ){
-	   declencheBeep();
-	} 	
+	obj = GameObject.FindGameObjectsWithTag("Enemy"); 
+		
 }
 
 function Start () {
-	if( Vector3.Distance(obj.transform.position, player.transform.position) <= map ){
-	   declencheBeep();
+
+}
+
+
+
+function Update () {
+
+	map = GameObject.Find("World").transform.gameObject.GetComponent(Radar).seuil;
+	isClose = false;
+	for( var go : GameObject in obj ){
+	
+		var dist : float = Vector3.Distance( player.transform.position, go.transform.position);
+		//var dist : float= 140;
+		
+		
+		if( dist <= map ){
+			isClose = true;
+			if( dist <= 50 ){
+				if( playNormal ){
+					playNormal = false;
+					beepNormal.GetComponent(AudioSource).Stop();
+				}
+				
+				if( !playRapide ){
+					playRapide = true;
+					beepRapide.GetComponent(AudioSource).Play();	
+				}
+			
+			}
+			else{
+				if( playRapide ){
+					playRapide = false;
+					beepRapide.GetComponent(AudioSource).Stop();
+				}
+			
+				if( !playNormal ){
+					playNormal = true;
+					beepNormal.GetComponent(AudioSource).Play();
+				}
+			}
+		}
+
+	}
+
+	if( !isClose ){
+		if( playNormal ){
+			playNormal = false;
+			beepNormal.GetComponent(AudioSource).Stop();
+		}
+			
+		if( playRapide ){
+			playRapide = false;
+			beepRapide.GetComponent(AudioSource).Stop();
+		}
 	}
 }
 
-function Update () {
-	
-}
-
-function declencheBeep(){
-	if( Vector3.Distance(obj.transform.position, player.transform.position) <= map ){
-	   beep.GetComponent(AudioSource).PlayDelayed(3);
-	   //yield WaitForSeconds(5);
-	   //beep.GetComponent(AudioSource).Stop();
-	} 	
-
-}
 
