@@ -25,10 +25,6 @@ private var mapCenter : Vector2;
 var mapCenterCustom : Vector2;
 
 
-var beepNormal : GameObject;
-var beepRapide : GameObject;
-var bool : boolean;
-
 var seuil : int;
 
 function Awake(){
@@ -36,9 +32,12 @@ function Awake(){
 }
 
 
+
+
 function Start () {
 	setMapLocation();	
 }
+
 
 function OnGUI () {
 //	GUI.matrix = Matrix4x4.TRS (Vector3.zero, Quaternion.identity, Vector3(Screen.width / 600.0, Screen.height / 450.0, 1));
@@ -76,14 +75,12 @@ function drawBlip(go,aTexture){
 	
 	if(dist<=mapWidth*.5/mapScale){ 
 		Debug.Log("dist : " + mapWidth*.5/mapScale);
-		// this is the diameter of our largest radar circle
-	   beepNormal.GetComponent(AudioSource).Play();
-	   beepNormal.GetComponent(AudioSource).loop = true;
-	   //yield WaitForSeconds (3);
-	   GUI.DrawTexture(Rect(mapCenter.x+bX,mapCenter.y+bY,4,4),aTexture);
- 
-	}
- 
+	    GUI.DrawTexture(Rect(mapCenter.x+bX,mapCenter.y+bY,4,4),aTexture);
+	 }
+	 
+
+	 
+	 
 }
  
 function DrawBlipsForEnemies(){
@@ -99,17 +96,23 @@ function DrawBlipsForEnemies(){
     var position = transform.position; 
  
     // Iterate through them and call drawBlip function
-    for (var go : GameObject in gos)  { 
-   		 	var blipChoice : Texture = blip;
-   		   	if(checkAIscript){
-    			var aiScript : EnemyAI = go.GetComponent("EnemyAI");
-    		if(aiScript.isChasing)
-    				blipChoice = blipChasing;
+    for (var go : GameObject in gos){ 
+   	 	var blipChoice : Texture = blip;
+   	   	if(checkAIscript){
+    		var aiScript : EnemyAI = go.GetComponent("EnemyAI");
     	}
-		drawBlip(go,blipChoice);
-    }
- 
+    		
+    	if(aiScript.isChasing){
+    		blipChoice = blipChasing;
+    		
+	 	}
+	 	
+	 	drawBlip(go,blipChoice);
+	}
+	
 }
+ 
+
 
 function setMapLocation () {
 	mapWidth = Screen.width*mapSizePercent/100.0;
@@ -140,7 +143,3 @@ function setMapLocation () {
 	
 	seuil = mapWidth*.5/mapScale;
 } 
-
-function getSeuil() : int{
-	return seuil;
-}

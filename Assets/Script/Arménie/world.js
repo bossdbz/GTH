@@ -27,6 +27,7 @@ function AddTresorBonus () {
 
 
 function Awake(){
+<<<<<<< HEAD
 
         //nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
 
@@ -60,6 +61,12 @@ function Awake(){
 }
 				
 /*
+=======
+        //nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
+
+        sceneName = Application.loadedLevel; 
+        
+>>>>>>> 609ac9408d2ed34b52be4d834666f2a6e7c69146
 
         textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
 
@@ -68,7 +75,10 @@ function Awake(){
         
         if (sceneName == 7){
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 609ac9408d2ed34b52be4d834666f2a6e7c69146
         textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
         }
         
@@ -92,13 +102,10 @@ function OnGUI() {
         textTresor.text = "Trésors : " + GameVariable.nbrTresor + "";
         
         textPiece.text = "Pièces : " + GameVariable.nbrPiece + "";
-
-        
-        
-        
+      
         textVie.text = "Vies : " + GameVariable.nbrVie + "";
         
         if (sceneName == 7) {
-        textTresorBonus.text = "Trésors Bonus : " + GameVariable.nbrTresorBonus + " /10";
+        	textTresorBonus.text = "Trésors Bonus : " + GameVariable.nbrTresorBonus + " /10";
         }
 }
