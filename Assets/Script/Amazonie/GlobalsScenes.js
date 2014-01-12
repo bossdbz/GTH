@@ -79,8 +79,10 @@ public static class GameVariables
    	 	textfield.text="";   
 	}
 	
-	// les infos serieuses
-
+	public var Tab1 = new Array();
+	public var nbdetruit=0;
+	
+	// 
 }
 
 

@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +65,7 @@
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
      <Compile Include="Assets\Script\Amazonie\GlobalsScenes.js" />
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
+     <Compile Include="Assets\Script\Amazonie\PasduSolamazonie.js" />
      <Compile Include="Assets\Script\Amazonie\cheat.js" />
      <Compile Include="Assets\Script\Amazonie\checkpoint.js" />
      <Compile Include="Assets\Script\Amazonie\enigme1Son.js" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
      <Compile Include="Assets\Script\Amazonie\porteETG1.js" />
      <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
+     <Compile Include="Assets\Script\Amazonie\sonScript.js" />
      <Compile Include="Assets\Script\Amazonie\teleportation.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
