@@ -27,7 +27,7 @@ function AddTresorBonus () {
 
 
 function Awake(){
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
         //nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
 
