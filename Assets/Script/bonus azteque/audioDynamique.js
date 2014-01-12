@@ -73,9 +73,9 @@ function Update ()
 		//Flute_Stacc 1
 		if(AvionVariables.vie > 2 )	
 			//son9.volume=0.6;//
-			TransitionSons(0.6 , son9);
-		else //son9.volume=0.0;//
 			TransitionSons(0.0 , son9);
+		else //son9.volume=0.0;//
+			TransitionSons(0.6 , son9);
 	}else //son9.volume=0.0;//
 		TransitionSons(0.0 , son9);
 	
@@ -110,7 +110,7 @@ function Update ()
 	{	
 		//ViolinUpdn
 		//son13.volume=0.5;//
-		TransitionSons(0.0 , son13);
+		TransitionSons(0.5 , son13);
 	}else //son13.volume=0.0;//
 		TransitionSons(0.0 , son13);
 	
@@ -154,11 +154,17 @@ function Update ()
 	}else //son11.volume=0.0;//
 		TransitionSons(0.0 , son11);
 	
-	if((avancement >= 80)&& (avancement < 100 )&& ( AvionVariables.vie == 0 )) // ajouter vie
+	if((avancement >= 80)&& (avancement < 100 )&& ( AvionVariables.vie < 3 )) // ajouter vie
 	{
+		if(AvionVariables.vie==2)
 		//BrusqueViolon
 		//son3.volume=0.5;//
-		TransitionSons(0.5 , son3);
+			TransitionSons(0.5 , son3);
+		if(AvionVariables.vie==1)
+		//BrusqueViolon
+		//son3.volume=0.5;//
+			TransitionSons(0.75 , son3);	
+			
 	}else //son3.volume=0.0;//
 		TransitionSons(0.0 , son3);
 	

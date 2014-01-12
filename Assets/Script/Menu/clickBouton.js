@@ -30,17 +30,21 @@ function Update () {
 function OnMouseDown() 
 { 
  // if we clicked the play button 
-  
+  //var son = GameObject.Find("son");
+	
   if( this.name == "Menu") 
   {
+  	//son.audio.Play();
   	Time.timeScale = 1.0;
+  	GetComponent(AudioSource).Play();
     Application.LoadLevel("Menu");
-    GetComponent(AudioSource).Play();
+    
   }
   if( this.name == "Reprendre") 
   {
+  			//son.audio.Play();
   			Time.timeScale = 1.0;
-  			sonClique.GetComponent(AudioSource).Play();
+  			//sonClique.GetComponent(AudioSource).Play();
 			pauseGUI.enabled = false;
 			pauseT.enabled = false;
 			menuPrincipale.enabled = false;
@@ -50,14 +54,16 @@ function OnMouseDown()
   }    
   if(this.name == "Londres") 
   {
-  	sonClique.GetComponent(AudioSource).Play();
+  	//son.audio.Play();
+  	//sonClique.GetComponent(AudioSource).Play();
   	Time.timeScale = 1.0;
     Application.LoadLevel("Angleterre");
    }
    
    if(this.name == "RecommencerAmazonieB") // remplacer si possible par un this.scene, triuc du genre 
   {
-  			sonClique.GetComponent(AudioSource).Play();
+  			//son.audio.Play();
+  			//sonClique.GetComponent(AudioSource).Play();
   			//sonClique.audio.Play();
   			//AudioClip.PlayClipAtPoint(clic, null);
   			//if(!sonClique.isPlaying){

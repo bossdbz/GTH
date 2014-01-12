@@ -1,19 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Amazonie\enigme1Son.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\bonus azteque\audioDynamique.js">
     <Files>
-      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="83" Column="12" />
-      <File FileName="Assets\Script\Arménie\world.js" Line="60" Column="2" />
+      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Arménie\world.js" Line="112" Column="1" />
       <File FileName="Assets\Audio\Grotte\PasSolDur.js" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Amazonie\PasduSolamazonie.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\audioDynamique.js" Line="41" Column="39" />
-      <File FileName="Assets\Script\Amazonie\sonScript.js" Line="4" Column="1" />
-      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="97" Column="21" />
+      <File FileName="Assets\Script\bonus azteque\audioDynamique.js" Line="166" Column="22" />
+      <File FileName="Assets\Script\Amazonie\sonScript.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Amazonie\enigme1Son.js" Line="89" Column="31" />
-      <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="83" Column="12" />
-      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="6" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\caisse.js" Line="32" Column="6" />
+      <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\bonus azteque\caisse.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
