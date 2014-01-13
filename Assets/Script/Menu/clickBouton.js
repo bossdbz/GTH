@@ -36,7 +36,7 @@ function OnMouseDown()
   {
   	//son.audio.Play();
   	Time.timeScale = 1.0;
-  	GetComponent(AudioSource).Play();
+  	//GetComponent(AudioSource).Play();
     Application.LoadLevel("Menu");
     
   }

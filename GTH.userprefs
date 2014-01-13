@@ -1,18 +1,25 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\bonus azteque\audioDynamique.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\clickBouton.js">
     <Files>
+      <File FileName="Assets\Script\Arménie\world.js" Line="110" Column="1" />
       <File FileName="Assets\Script\Amazonie\GlobalsScenes.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\world.js" Line="112" Column="1" />
-      <File FileName="Assets\Audio\Grotte\PasSolDur.js" Line="1" Column="1" />
+      <File FileName="Assets\Audio\Grotte\PasSolDur.js" Line="11" Column="42" />
       <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Amazonie\PasduSolamazonie.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\bonus azteque\audioDynamique.js" Line="166" Column="22" />
+      <File FileName="Assets\Script\bonus azteque\audioDynamique.js" Line="78" Column="22" />
       <File FileName="Assets\Script\Amazonie\sonScript.js" Line="1" Column="1" />
       <File FileName="Assets\Script\Amazonie\objetETG1.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Amazonie\enigme1Son.js" Line="89" Column="31" />
+      <File FileName="Assets\Script\Amazonie\enigme1Son.js" Line="1" Column="1" />
       <File FileName="Assets\Script\bonus azteque\avionbehaviour.js" Line="1" Column="1" />
       <File FileName="Assets\Script\bonus azteque\caisse.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuScripts.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\MenuGameOverBonusAmazonie.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\Menu\menuInstruction.js" Line="68" Column="1" />
+      <File FileName="Assets\Script\Menu\clickBouton.js" Line="39" Column="6" />
+      <File FileName="Assets\Script\Menu\menuPause.js" Line="30" Column="3" />
+      <File FileName="Assets\Script\Amazonie\cheat.js" Line="10" Column="24" />
+      <File FileName="Assets\Script\bonus azteque\cheatpause.js" Line="16" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

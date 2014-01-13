@@ -27,13 +27,7 @@ function AddTresorBonus () {
 
 
 function Awake(){
-<<<<<<< HEAD
 
-=======
-//<<<<<<< HEAD
->>>>>>> 123b9e127f9a3d9e361ce7071e7c62efc31c4c72
-
-        //nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
 
 
 	sceneName = Application.loadedLevel; 

@@ -116,6 +116,7 @@
      <Compile Include="Assets\Script\bonus azteque\audioDynamique.js" />
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
+     <Compile Include="Assets\Script\bonus azteque\cheatpause.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
      <Compile Include="Assets\Script\bonus azteque\explosion.js" />
      <Compile Include="Assets\Script\bonus azteque\life.js" />
