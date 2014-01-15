@@ -54,7 +54,6 @@ function OnMouseDown()
   }    
   if(this.name == "Londres") 
   {
-  	//son.audio.Play();
   	//sonClique.GetComponent(AudioSource).Play();
   	Time.timeScale = 1.0;
     Application.LoadLevel("Angleterre");
