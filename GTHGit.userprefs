@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Menu\menuPause.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Packages\Angleterre\TestTableau1.js">
     <Files>
-      <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="1" Column="1" />
+      <File FileName="Assets\Packages\Angleterre\TestTableau1.js" Line="52" Column="395" />
       <File FileName="Assets\Packages\Angleterre\MusiqueAmbiance.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Laby\Temps.js" Line="1" Column="1" />
       <File FileName="Assets\Packages\Angleterre\ChoixNiveau.js" Line="1" Column="1" />
