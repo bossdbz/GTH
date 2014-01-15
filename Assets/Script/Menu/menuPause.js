@@ -16,7 +16,7 @@ reprendre.enabled = false;
 
 function Awake(){
 	
-	//sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture.wav");
+	sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture.wav");
 
 }
 
