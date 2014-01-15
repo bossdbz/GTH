@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 
 var pause : boolean = false;
 var menuInformation : GUITexture;
@@ -54,6 +54,9 @@ function OnMouseDown()
 			menu.enabled = false;
 			Mission.enabled = false;
     		depart=1;
+    		
+    		var son = GameObject.Find("son");
+			son.audio.Play();
    }
 } 
 

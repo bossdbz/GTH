@@ -33,8 +33,9 @@ var obj: GameObject = GameObject.Find("First Person Controller");
 	var obj9: GameObject = GameObject.Find("objet-vert1");
 	var obj10: GameObject = GameObject.Find("objet-blanc1");
 	var obj11: GameObject = GameObject.Find("objet-jaune1");	//
-	var obj12: GameObject = GameObject.Find("checkP");
-	
+	var obj12: GameObject = GameObject.Find("desertfortress_outpost");
+	var obj13: GameObject = GameObject.Find("Sphere12");
+	//Sphere12
 	//Debug.Log (obj.transform.transform.position.x+" / "+obj.transform.transform.position.y+" / "+obj.transform.transform.position.z);
 	
 	if(( i > 1) && (i < 5))
@@ -59,10 +60,12 @@ var obj: GameObject = GameObject.Find("First Person Controller");
 	if(( i > 65) && (i < 70))
 		obj.transform.transform.position= Vector3(obj10.transform.position.x + 2,obj10.transform.position.y+0.5, obj10.transform.position.z);
 	if(( i > 75) && (i < 80))
-		obj.transform.transform.position= Vector3(obj11.transform.position.x + 2,obj11.transform.position.y+0.5, obj11.transform.position.z);
-	if(( i > 85) && (i < 120))
-		obj.transform.transform.position= Vector3(obj12.transform.position.x,obj12.transform.position.y, obj12.transform.position.z);	
-		
+		obj.transform.transform.position= Vector3(obj11.transform.position.x + 1,obj11.transform.position.y+0.5, obj11.transform.position.z);
+	if(( i > 85) && (i < 100))
+		obj.transform.transform.position= Vector3(obj12.transform.position.x,obj12.transform.position.y+4, obj12.transform.position.z);	
+	if(( i > 100) && (i < 120))
+		obj.transform.transform.position= Vector3(obj13.transform.position.x-70,obj13.transform.position.y+1, obj13.transform.position.z+0);
+			
 	if( i > 120)
 		i = 1;
 

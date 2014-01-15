@@ -16,7 +16,7 @@ reprendre.enabled = false;
 
 function Awake(){
 	
-	sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture");
+	sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture.wav");
 
 }
 
@@ -28,7 +28,7 @@ function Start(){
 function Update(){
 	if(Input.GetKeyUp(KeyCode.Escape)) 
 	{
-		sonMenu.GetComponent(AudioSource).Play();
+		//sonMenu.GetComponent(AudioSource).Play();
 		if(pause==true){
 			pause = false;
 		}

@@ -13,6 +13,8 @@ public var po;
 public var ro;
 
 
+
+
 public static class Anim 
 { 
 	//le rdc
@@ -106,6 +108,10 @@ function playanimation()
 function OnMouseDown()
 {	
 	// if we clicked the play button
+	Debug.Log("son joué");
+	var son = GameObject.Find("son");
+	son.audio.Play();
+	
 	if (this.name == "help")anim1=1;	
 	if (this.name == "creditP")
 	{
