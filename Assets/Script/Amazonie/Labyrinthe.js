@@ -1,6 +1,6 @@
 #pragma strict
 
-public var allowedTime:int = 600; 
+public var allowedTime:int = 1000; 
 private var currentTime = allowedTime; 
 
 

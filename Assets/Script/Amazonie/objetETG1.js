@@ -47,8 +47,8 @@ function Update () {
 function AddBleu () {
 	GameVariables.objetbleu1=1;	
 	
-	nomObjet.text= "Le Couteau azteque";
-	texteSerious.text= "Les aztèques arrivent au XIIIe siècle dans la région du Mexique. Ils fondent leur capitale Tenochtitlán, aujourd'hui Mexico.\n La religion aztèque exige de nombreux sacrifices humains.Les cérémonies ont lieu devant le temple, sur la place principale de la ville. \nOn sacrifie des prisonniers mais aussi des Aztèques qui veulent ainsi se rapprocher des dieux. Voici un couteau de sacrifice. C'est un objet d'une grande valeur.\nLa poignée du couteau représente un Guerrier-aigle (distinction honorifique dans l'armée aztèque).";
+	nomObjet.text= "Le monolithe de Coatlicue";
+	texteSerious.text= "Grande sculpture monolithique aztèque	représentant la déesse Coatlicue (déesse de la fertilité)\n2,50 m de hauteur sur plus d'1,60 m de largeur et 1,50 d'épaisseur\n découvert le 13 août 1790.";
 	afficheSeriousObjet("b");
 	// afficher le menu
 	
@@ -56,29 +56,29 @@ function AddBleu () {
 
 function AddJaune () {
 	GameVariables.objetjaune1=1;
-	nomObjet.text= 'Matlactli Atl " Le Premier Soleil " ';
-	texteSerious.text= "IL dure 4 008 années, a cette époque vivaient des géants et Il fut détruit par l’eau.\nOn lui a donné le nom d’Apachiohualiztli (inondation, déluge). Les hommes furent transformés en poissons.\nUn seul couple survécut et repeupla la Terre. D'autres disent que sept couples se cachèrent dans une grotte en attendant la fin du déluge.\nIls repeuplèrent la Terre et furent adorés comme des Dieux par leurs nations";
+	nomObjet.text= 'Le monolithe de Coyolxauhqui ';
+	texteSerious.text= "Grand monolithe circulaire représentant la déesse aztèque Coyolxauhqui.\nDisque d'un diamètre compris entre 3,04 et 3,25 m, d'une épaisseur de 30 cm et d'un poids proche de 8 tonnes.\nIl est aujourd’hui exposé au musée du Templo Mayor.";
 	afficheSeriousObjet("j");
 }
 
 function AddRouge () {
 	GameVariables.objetrouge1=1;
-	nomObjet.text= 'Ehecoatl " Le Second Soleil " ';
-	texteSerious.text="Il dure 4 010 années et fut détruit par Ehecoatl (le Serpent du Vent), les hommes furent changés en singes.\nUn homme et une femme furent sauvés de la destruction…";
+	nomObjet.text= 'Le monolithe de Tlaloc';
+	texteSerious.text="Grande statue monolithique en ronde-bosse représentant le dieu aztèque Tlaloc.\nmesure environ 7 mètres et pèse aux alentours de 165 tonnes.\n constructruit entre le IVe et VIe siècle.";
 	afficheSeriousObjet("r");
 }
 
 function AddVert () {
 	GameVariables.objetvert1=1;
-	nomObjet.text= 'Tleyquiyahuillo " Le Troisième Soleil " ';
-	texteSerious.text= "Il dure 4 081 années. Il fut détruit par le feu.\nLes hommes qui descendaient du couple rescapé du second soleil, mangeaient un fruit appelé tzincoacoc";
+	nomObjet.text= 'Le monolithe de Tlaltecuhtli';
+	texteSerious.text= "Représente la déesse Tlaltecuhtli.Mesure 3,62 m de long sur 4,19 m de large.\nSon épaisseur maximum est de 40 cm et celle du relief sculpté est de 15 cm. Pèse 12,35 tonnes.\nIl est aujourd’hui exposé au musée du Templo Mayor.";
 	afficheSeriousObjet("v");
 }
 
 function AddBlanc () {
 	GameVariables.objetblanc1=1;
-	nomObjet.text= 'Tzontlilic " Le Quatrième Soleil " ';
-	texteSerious.text= "Il dure 5 026 années. Les hommes moururent de faim après un déluge de sang et de feu…";
+	nomObjet.text= '	La pierre de Tizoc';
+	texteSerious.text= "La face supérieure du monument cylindrique est ornée d'un disque solaire à huit rayons. \nSur le côté se trouve une frise à caractère historique : quinze représentations\n de guerriers aztèques tenant un captif par les cheveux.";
 
 	afficheSeriousObjet("blanc");
 }
