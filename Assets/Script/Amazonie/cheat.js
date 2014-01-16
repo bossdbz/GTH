@@ -24,15 +24,15 @@ function teleport(){
 var obj: GameObject = GameObject.Find("First Person Controller");
 	var obj1: GameObject = GameObject.Find("objet-bleu");
 	var obj2: GameObject = GameObject.Find("objet-rouge");
-	var obj3: GameObject = GameObject.Find("objet-vert");
-	var obj4: GameObject = GameObject.Find("objet-blanc");
-	var obj5: GameObject = GameObject.Find("objet-jaune");
+	var obj3: GameObject = GameObject.Find("objet-jaune");
+	var obj4: GameObject = GameObject.Find("objet-vert");
+	var obj5: GameObject = GameObject.Find("objet-blanc");
 	var obj6: GameObject = GameObject.Find("porteRdc");
 	var obj7: GameObject = GameObject.Find("objet-bleu1");
 	var obj8: GameObject = GameObject.Find("objet-rouge1");
-	var obj9: GameObject = GameObject.Find("objet-vert1");
-	var obj10: GameObject = GameObject.Find("objet-blanc1");
-	var obj11: GameObject = GameObject.Find("objet-jaune1");	//
+	var obj9: GameObject = GameObject.Find("objet-jaune1");
+	var obj10: GameObject = GameObject.Find("objet-vert1");
+	var obj11: GameObject = GameObject.Find("objet-blanc1");	//
 	var obj12: GameObject = GameObject.Find("desertfortress_outpost");
 	var obj13: GameObject = GameObject.Find("Sphere12");
 	//Sphere12
