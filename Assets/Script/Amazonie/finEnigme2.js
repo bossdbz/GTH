@@ -25,7 +25,7 @@ function Start () {
 	GameVariables.TabEnigme3.push(43);
 	GameVariables.TabEnigme3.push(44);
 	GameVariables.TabEnigme3.push(45);
-	GameVariables.TabEnigme3.push(38);
+	GameVariables.TabEnigme3.push(39);
 	GameVariables.TabEnigme3.push(40);
 	GameVariables.TabEnigme3.push(41);
 	GameVariables.TabEnigme3.push(47);

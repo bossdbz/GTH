@@ -1,5 +1,7 @@
 ﻿#pragma strict
 var sonD:AudioSource;
+
+
 function Start () {
 
 }
@@ -59,10 +61,12 @@ Debug.Log(this.name);
 				{
 					var obj = GameObject.Find("Cube-E"+	GameVariables.CurrentTab[i]);
 					// obje change couleur des bon cube
+					//obj.renderer.material.color = Color.black;
 					val+=GameVariables.CurrentTab[i]+"+";
+					
 				}
 				//Debug.Log("good");
-				//Debug.Log(val);
+				Debug.Log(val);
 			}
 		
 		}
@@ -76,14 +80,19 @@ Debug.Log(this.name);
 			
 			//jouer musique
 			var so = GameObject.Find("sonWin");
+			var so2 = GameObject.Find("tresure_boxBig");
 			so.audio.Play();
+			so2.audio.Play();
 		}
 	}
 	else{
 		//Debug.Log("perdu");
 		//perdu
 		for(var j =0;j<GameVariables.CurrentTab.length;j++)
+		{
 			GameVariables.CurrentTab.shift();
+		}
+		
 		//jouer un son
 		sonD.Play();
 	}
