@@ -82,9 +82,25 @@ public static class GameVariables
 	public var Tab1 = new Array();
 	public var nbdetruit=0;
 	
-	// 
-}
+	// les questions
+	public var TabQuestions = new Array();
+	public var TabReponses = new Array();
+	public var TabUtilise = new Array();
+	//
+	public var vrai1;
+	public var vrai2;
+	public var vrai3;
+	public var vrai4;
 
+	public var faux1;
+	public var faux2;
+	public var faux3;
+	public var faux4;
+	
+	
+	public var TabEnigme3=new Array();
+	public var CurrentTab=new Array();
+}
 
 
 function Update ()

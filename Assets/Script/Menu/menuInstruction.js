@@ -56,7 +56,7 @@ function OnMouseDown()
     		depart=1;
     		
     		var son = GameObject.Find("son");
-			son.audio.Play();
+			if(son)	son.audio.Play();
    }
 } 
 
