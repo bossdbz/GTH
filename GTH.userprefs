@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\next.js">
     <Files>
@@ -13,6 +14,12 @@
       <File FileName="Assets\Script\Arménie\nom.js" Line="3" Column="10" />
       <File FileName="Assets\Script\Arménie\GameVariable.js" Line="11" Column="38" />
       <File FileName="Assets\Script\Arménie\AddTresor.js" Line="15" Column="15" />
+=======
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js">
+    <Files>
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="9" Column="15" />
+>>>>>>> f972ad18d86462181d7cd3ef46579f6fbb52824b
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

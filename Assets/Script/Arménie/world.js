@@ -27,10 +27,44 @@ function AddTresorBonus () {
 
 
 function Awake(){
+
+
+
+	sceneName = Application.loadedLevel; 
+
+
+
+
+	
+
+
+	if (sceneName != "Assets/Scene/Bonus Syrie.unity"){
+		
+
+			textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
+			// sceneName = Application.loadedLevel;
+			textPiece = GameObject.Find("InterfaceJeux/TextPiece").GetComponent(GUIText);	
+		
+	
+	}
+
+	
+	if (sceneName == "Assets/Scene/Bonus Syrie.unity"){
+					textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
+				}
+				
+	textVie = GameObject.Find("InterfaceJeux/TextVie").GetComponent(GUIText);
+
+				OnGUI();
+}
+				
+/*
+=======
         //nbrTresors = GameObject.FindGameObjectsWithTag("Tresor").Length;
 
         sceneName = Application.loadedLevel; 
         
+>>>>>>> 609ac9408d2ed34b52be4d834666f2a6e7c69146
 
         textTresor = GameObject.Find("InterfaceJeux/TextTresor").GetComponent(GUIText);
 
@@ -39,6 +73,10 @@ function Awake(){
         
         if (sceneName == 7){
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 609ac9408d2ed34b52be4d834666f2a6e7c69146
         textTresorBonus = GameObject.Find("InterfaceJeux/TextTresorBonus").GetComponent(GUIText);
         }
         
@@ -48,7 +86,8 @@ function Awake(){
         
         OnGUI();
 
-}
+
+}*/
 
 
 

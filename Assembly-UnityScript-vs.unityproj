@@ -19,7 +19,15 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
+<<<<<<< HEAD
 	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;UNITY_64;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+=======
+<<<<<<< HEAD
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_0;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+=======
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+>>>>>>> c56f007d2dcf9c765d30a2b7fa9bded655e0412f
+>>>>>>> f972ad18d86462181d7cd3ef46579f6fbb52824b
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,14 +47,15 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Mes Programmes/Unity/Installation/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Audio\Angleterre\PasBois.js" />
+     <Compile Include="Assets\Audio\Chine\AmbianceNiveaux.js" />
      <Compile Include="Assets\Audio\Chine\PasNeige.js" />
      <Compile Include="Assets\Audio\Grotte\PasSolDur.js" />
      <Compile Include="Assets\DesertFortressPack\Scripts\open_door.js" />
@@ -63,12 +72,20 @@
      <Compile Include="Assets\Radar\EnemyAI.js" />
      <Compile Include="Assets\Radar\Radar.js" />
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseOrbit.js" />
+     <Compile Include="Assets\Script\Amazonie\Enigmes3Debut.js" />
      <Compile Include="Assets\Script\Amazonie\GlobalsScenes.js" />
      <Compile Include="Assets\Script\Amazonie\Labyrinthe.js" />
+     <Compile Include="Assets\Script\Amazonie\PasduSolamazonie.js" />
+     <Compile Include="Assets\Script\Amazonie\analyseReponse.js" />
+     <Compile Include="Assets\Script\Amazonie\casseEnigme3.js" />
      <Compile Include="Assets\Script\Amazonie\cheat.js" />
      <Compile Include="Assets\Script\Amazonie\checkpoint.js" />
+     <Compile Include="Assets\Script\Amazonie\declenchementQuestion.js" />
      <Compile Include="Assets\Script\Amazonie\enigme1Son.js" />
+     <Compile Include="Assets\Script\Amazonie\finEnigme2.js" />
+     <Compile Include="Assets\Script\Amazonie\findulvl.js" />
      <Compile Include="Assets\Script\Amazonie\infoSerious.js" />
+     <Compile Include="Assets\Script\Amazonie\initialiseQuestions.js" />
      <Compile Include="Assets\Script\Amazonie\intro.js" />
      <Compile Include="Assets\Script\Amazonie\mort.js" />
      <Compile Include="Assets\Script\Amazonie\objetETG1.js" />
@@ -76,6 +93,7 @@
      <Compile Include="Assets\Script\Amazonie\objetRDC.js" />
      <Compile Include="Assets\Script\Amazonie\porteETG1.js" />
      <Compile Include="Assets\Script\Amazonie\porteLaby.js" />
+     <Compile Include="Assets\Script\Amazonie\sonScript.js" />
      <Compile Include="Assets\Script\Amazonie\teleportation.js" />
      <Compile Include="Assets\Script\Arménie\AddPiece.js" />
      <Compile Include="Assets\Script\Arménie\AddTresor.js" />
@@ -119,6 +137,7 @@
      <Compile Include="Assets\Script\bonus azteque\audioDynamique.js" />
      <Compile Include="Assets\Script\bonus azteque\avionbehaviour.js" />
      <Compile Include="Assets\Script\bonus azteque\caisse.js" />
+     <Compile Include="Assets\Script\bonus azteque\cheatpause.js" />
      <Compile Include="Assets\Script\bonus azteque\end.js" />
      <Compile Include="Assets\Script\bonus azteque\explosion.js" />
      <Compile Include="Assets\Script\bonus azteque\life.js" />

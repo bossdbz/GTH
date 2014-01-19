@@ -30,7 +30,7 @@ function Update () {
 			//}
 			
 			var textfield:GUIText = GameObject.Find("TxtObjets").GetComponent(GUIText);
-		textfield.text = "La porte s'ouvre"; 
+		textfield.text = ""; 
 	}	
 }
 
