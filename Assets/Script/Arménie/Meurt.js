@@ -1,9 +1,10 @@
 ﻿#pragma strict
 
+private var epine : GameObject;
+private var player : GameObject;
 
-
-function Start () {
-
+function Awake () {
+	epine = GameObject.Find("Audio/Player/Meurt/Epine");
 }
 
 function Update () {
@@ -15,7 +16,10 @@ function OnTriggerEnter( other : Collider ) {
                 //Application.LoadLevel(EditorApplication.currentScene);
                 var sceneName : int = Application.loadedLevel;
                 GameVariable.nbrVie--;
-                
+				epine.GetComponent(AudioSource).Play();
+				
+
+                yield WaitForSeconds(3);
                 if(GameVariable.nbrVie == 0){
                         Application.LoadLevel("GameOver");
                 }        

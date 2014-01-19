@@ -5,7 +5,7 @@ var londres : GUIText;
 var menuPrincipale : GUIText;
 var reprendre : GUIText;
 
-private var sonMenu : GameObject;
+//private var sonMenu : GameObject;
 
 pauseGUI.enabled = false;
 pauseT.enabled = false;
@@ -16,7 +16,11 @@ reprendre.enabled = false;
 
 function Awake(){
 	
+<<<<<<< HEAD
+	//sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture");
+=======
 	sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture.wav");
+>>>>>>> f972ad18d86462181d7cd3ef46579f6fbb52824b
 
 }
 

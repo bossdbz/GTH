@@ -22,44 +22,50 @@ function Start () {
 
 
 function Update () {
-
+	var g : GameObject;
+	var dist : float = 99999;
 	map = GameObject.Find("World").transform.gameObject.GetComponent(Radar).seuil;
 	isClose = false;
 	for( var go : GameObject in obj ){
-	
-		var dist : float = Vector3.Distance( player.transform.position, go.transform.position);
-		//var dist : float= 140;
-		
-		
-		if( dist <= map ){
-			isClose = true;
-			if( dist <= 50 ){
-				if( playNormal ){
-					playNormal = false;
-					beepNormal.GetComponent(AudioSource).Stop();
-				}
+		if( go != null ){
+			var d : float = Vector3.Distance( player.transform.position, go.transform.position);
 				
-				if( !playRapide ){
-					playRapide = true;
-					beepRapide.GetComponent(AudioSource).Play();	
-				}
-			
+			if( dist > d ){
+				dist = d;
+				g = go;
 			}
-			else{
-				if( playRapide ){
-					playRapide = false;
-					beepRapide.GetComponent(AudioSource).Stop();
-				}
-			
-				if( !playNormal ){
-					playNormal = true;
-					beepNormal.GetComponent(AudioSource).Play();
-				}
+			//var dist : float= 140;
+		}
+	}		
+	
+	if( dist <= map ){
+		isClose = true;
+		var aiScript : EnemyAI = g.GetComponent("EnemyAI");
+		if( aiScript.isChasing ){
+			if( playNormal ){
+				playNormal = false;
+				beepNormal.GetComponent(AudioSource).Stop();
+			}
+					
+			if( !playRapide ){
+				playRapide = true;
+				beepRapide.GetComponent(AudioSource).Play();	
+			}
+				
+		}
+		else{
+			if( playRapide ){
+				playRapide = false;
+				beepRapide.GetComponent(AudioSource).Stop();
+			}
+				
+			if( !playNormal ){
+				playNormal = true;
+				beepNormal.GetComponent(AudioSource).Play();
 			}
 		}
-
 	}
-
+	
 	if( !isClose ){
 		if( playNormal ){
 			playNormal = false;
