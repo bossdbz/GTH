@@ -2,6 +2,7 @@
 
 
 var eltQuestion : GameObject[];
+var point : GameObject;
 
 function Start () {
 
@@ -16,9 +17,10 @@ function Update () {
 //affiche la question et arrete le jeu
 function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
-	
-		Time.timeScale = 0.0;
-		enable(true);	
+		//GameObject.Find("Audio/Menu/menuOuvertureFermeture").GetComponent(AudioSource).Play();
+		enable(true);
+		Destroy(point);	
+		//Time.timeScale = 0.0;
 	}
 }
 

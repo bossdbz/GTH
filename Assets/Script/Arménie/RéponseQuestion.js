@@ -1,8 +1,10 @@
 ﻿#pragma strict
 
 
-var piege : GameObject;
+var piege : GameObject[];
 private var parent : GameObject;
+
+
 function Start () {
 
 }
@@ -16,25 +18,19 @@ function Awake(){
 }
 
 
-function OnMouseDown()
+function OnTriggerEnter( other : Collider )
 {
 	// si le joueur clique sur la bonne réponse,
 	// n'affiche plus la question et le jeu reprend,
 	// sinon active le piege
-	
-	if(this.name == "Faux")
-	{
-		Debug.Log("Faux : " + this.name);
-		piege.GetComponent(Animator).enabled = true;
-		parent.active = false;
-		Time.timeScale = 1.0;
-	}//*/
-	
-	if(this.name == "Vrai")
-	{
-		Debug.Log("Vrai : " + this.name);
-		parent.active = false;
-		Time.timeScale = 1.0;
+	//yield WaitForSeconds(10);
+	if(transform.parent.gameObject.name == "Vrai"){
+		GameVariable.nbrQuiz++;
 	}
+	Debug.Log("Faux : " + this.name);
+	for(var g : GameObject in piege){
+		g.GetComponent(Animator).enabled = true;
 	
+	}
+		
 }

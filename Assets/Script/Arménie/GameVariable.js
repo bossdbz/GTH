@@ -8,8 +8,7 @@ public static class GameVariable
 	public var nbrVie : int = 5;
 	private var sceneName : String;
 	
-	
-	
 	public var nbrTresorBonus : int = 0;
+	public var nbrQuiz : int = 0;
 	
 }

@@ -1,7 +1,11 @@
 ﻿#pragma strict
 
-var world : GameObject;
+private var world : GameObject;
 private var superPiece : boolean;
+
+function Awake(){
+	world = GameObject.Find("World");
+}
 
 function OnTriggerEnter( other : Collider ) {
 	if(other.gameObject.CompareTag("Player")){
