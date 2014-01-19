@@ -59,9 +59,7 @@ function Update () {
 		changePosition();
 	}//*/
 
-	if(Input.GetKey("f")){
-		GameVariable.nbrQuiz == 5;
-	}
+
 		
 
 	if(Input.GetKey("t")){

@@ -1,25 +1,10 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Arménie\next.js">
     <Files>
-      <File FileName="Assets\Script\Arménie\Quiz.js" Line="5" Column="10" />
-      <File FileName="Assets\Script\Arménie\next.js" Line="63" Column="29" />
-      <File FileName="Assets\Script\Arménie\RéponseQuestion.js" Line="28" Column="26" />
-      <File FileName="Assets\Script\Arménie\Meurt.js" Line="31" Column="49" />
-      <File FileName="Assets\Script\Arménie\EnigmeRoi.js" Line="1" Column="1" />
-      <File FileName="Assets\Script\Arménie\Parcour.js" Line="88" Column="44" />
-      <File FileName="Assets\Script\Arménie\sphere.js" Line="19" Column="21" />
-      <File FileName="Assets\Script\Arménie\statue.js" Line="16" Column="51" />
-      <File FileName="Assets\Script\Arménie\nom.js" Line="3" Column="10" />
-      <File FileName="Assets\Script\Arménie\GameVariable.js" Line="11" Column="38" />
-      <File FileName="Assets\Script\Arménie\AddTresor.js" Line="15" Column="15" />
-=======
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js">
-    <Files>
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="9" Column="15" />
->>>>>>> f972ad18d86462181d7cd3ef46579f6fbb52824b
+      <File FileName="Assets\Script\Menu\clickBouton.js" Line="98" Column="3" />
+      <File FileName="Assets\Script\Menu\menuPause.js" Line="74" Column="1" />
+      <File FileName="Assets\Script\Arménie\next.js" Line="62" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

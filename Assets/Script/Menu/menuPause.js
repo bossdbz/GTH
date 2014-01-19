@@ -16,11 +16,11 @@ reprendre.enabled = false;
 
 function Awake(){
 	
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	//sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture");
-=======
+//=======
 	sonMenu = GameObject.Find("Audio/Menu/menuOuvertureFermeture.wav");
->>>>>>> f972ad18d86462181d7cd3ef46579f6fbb52824b
+//>>>>>>> f972ad18d86462181d7cd3ef46579f6fbb52824b
 
 }
 
